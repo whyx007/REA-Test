@@ -1,0 +1,251 @@
+{
+  "version": "1.0.0",
+  "build_time": "2026-06-09 14:22:21",
+  "funcMapping": {
+    "default": [
+      "pkg_base",
+      "pkg_base_egn",
+      "pkg_bigfile",
+      "pkg_qq_we_pp",
+      "pkg_pry_defrg",
+      "pkg_sysslim",
+      "miniblink",
+      "base",
+      "qt"
+    ],
+    "sysslim": [
+      "pkg_base",
+      "base",
+      "miniblink",
+      "qt",
+      "pkg_sysslim",
+      "pkg_base_egn"
+    ],
+    "filedestroy": [
+      "pkg_base",
+      "base",
+      "miniblink",
+      "qt"
+    ],
+    "largefile": [
+      "pkg_base",
+      "base",
+      "miniblink",
+      "qt",
+      "pkg_bigfile",
+      "pkg_qq_we_pp",
+      "pkg_base_egn"
+    ],
+    "qq_clean": [
+      "pkg_base",
+      "base",
+      "miniblink",
+      "qt",
+      "pkg_bigfile",
+      "pkg_base_egn",
+      "pkg_qq_we_pp"
+    ],
+    "wechat_clean": [
+      "pkg_base",
+      "base",
+      "miniblink",
+      "qt",
+      "pkg_bigfile",
+      "pkg_base_egn",
+      "pkg_qq_we_pp"
+    ],
+    "privacy": [
+      "pkg_base",
+      "base",
+      "miniblink",
+      "qt",
+      "pkg_pry_defrg"
+    ],
+    "defrag": [
+      "pkg_base",
+      "base",
+      "miniblink",
+      "qt",
+      "pkg_pry_defrg"
+    ],
+    "dupfile": [
+      "pkg_base",
+      "base",
+      "miniblink",
+      "qt",
+      "pkg_qq_we_pp",
+      "pkg_base_egn"
+    ]
+  },
+  "subpacks": {
+    "pkg_base": {
+      "pubcomponents": false,
+      "description": "基础包",
+      "check_files": [],
+      "zipfile": {
+        "filename": "499ac15904d35852f8c8c34f056c0b6a.7z",
+        "crc": 3957900887,
+        "zipfileSize": 4234209
+      }
+    },
+    "pkg_base_egn": {
+      "pubcomponents": false,
+      "description": "相关引擎共用部分",
+      "check_files": [
+        "config3a.dat",
+        "klitesearch.dll",
+        "koptbase.dll",
+        "ksd.nlb",
+        "ksoftdeepclean.dll",
+        "ksyseng3.dll",
+        "ksysfixer.dll"
+      ],
+      "zipfile": {
+        "filename": "45983e3677416d09054f656a4bcd75bb.7z",
+        "crc": 1157560278,
+        "zipfileSize": 1158907
+      }
+    },
+    "pkg_bigfile": {
+      "pubcomponents": false,
+      "description": "大文件清理包",
+      "check_files": [
+        "data\\klargecleanup.dat",
+        "diskopteng.dll",
+        "klargecleanup.dll"
+      ],
+      "zipfile": {
+        "filename": "2dd46f1c773b819607b9e806b866700a.7z",
+        "crc": 1282802012,
+        "zipfileSize": 1615650
+      }
+    },
+    "pkg_qq_we_pp": {
+      "pubcomponents": false,
+      "description": "qq、wechat、pop",
+      "check_files": [
+        "kdiskcleancore.exe",
+        "kdupcleanup.dll",
+        "kqqcleanup.dll",
+        "kwechatcleanup.dll",
+        "kscanengine.dll",
+        "ksearchservice.exe"
+      ],
+      "zipfile": {
+        "filename": "f74ceaf8ffc5170e486acd54315af4b4.7z",
+        "crc": 3365548114,
+        "zipfileSize": 3975516
+      }
+    },
+    "pkg_pry_defrg": {
+      "pubcomponents": false,
+      "description": "prcyclean、defragclean",
+      "check_files": [
+        "defragui.dll",
+        "kprivacycleaner.dll"
+      ],
+      "zipfile": {
+        "filename": "73a0997a1a801b065eb5bdf72cf14067.7z",
+        "crc": 2657514404,
+        "zipfileSize": 4289817
+      }
+    },
+    "pkg_sysslim": {
+      "pubcomponents": false,
+      "description": "待填充-pkg_sysslim说明",
+      "check_files": [
+        "kslimengine.dll",
+        "ksoftmgrengine.dll",
+        "ksyshelper64.exe",
+        "ksysslim.dll",
+        "ktrashscan.dll"
+      ],
+      "zipfile": {
+        "filename": "81280e2d6a52ceaaa78b766ab84f452d.7z",
+        "crc": 2954113923,
+        "zipfileSize": 2339465
+      }
+    },
+    "pkg_dump": {
+      "check_files": [
+        "kdump.dll",
+        "kdump64.dll"
+      ],
+      "zipfile": {
+        "filename": "d84242c8fae11aca3974ad83dd072b60.7z",
+        "crc": 4266162483,
+        "zipfileSize": 1296318
+      }
+    },
+    "base": {
+      "pubcomponents": true,
+      "display_name": "基础组件",
+      "description": "基础功能组件（运行时库+ 输入法登录SDK）",
+      "version": "2512311142",
+      "3rd_version": "vc2005(8.0.50727.42) + vc2019(14.29.30133) + breakpad-2022",
+      "check_files": [
+        "msvcr80.dll",
+        "msvcp140.dll",
+        "vcruntime140.dll",
+        "biz_dispatch_center.dll"
+      ],
+      "pubcomp_check_files": [
+        "msvcr80.dll",
+        "msvcp140.dll",
+        "vcruntime140.dll",
+        "biz_dispatch_center.dll",
+        "ucrtbase.dll"
+      ],
+      "zipfile": {
+        "filename": "7a19fdf8ee5f97636448b3f12f2055df.7z",
+        "crc": 3882833220,
+        "zipfileSize": 2488216
+      },
+      "changelog": ""
+    },
+    "miniblink": {
+      "pubcomponents": true,
+      "display_name": "web内核-miniblink",
+      "description": "web内核-miniblink组件说明",
+      "version": "2512191927",
+      "3rd_version": "miniblink-4975.2311.15.0",
+      "check_files": [
+        "node.dll"
+      ],
+      "pubcomp_check_files": [
+        "node.dll"
+      ],
+      "zipfile": {
+        "filename": "0e2c8025ea71f753e3141632d5f82f62.7z",
+        "crc": 2734577011,
+        "zipfileSize": 8879140
+      },
+      "changelog": ""
+    },
+    "qt": {
+      "pubcomponents": true,
+      "display_name": "QT库",
+      "description": "客户端界面库",
+      "version": "2603241954",
+      "3rd_version": "qt-5.15.2",
+      "check_files": [
+        "qt5core.dll",
+        "qt5gui.dll",
+        "qt5network.dll",
+        "qt5widgets.dll"
+      ],
+      "pubcomp_check_files": [
+        "qt5core.dll",
+        "qt5gui.dll",
+        "qt5network.dll",
+        "qt5widgets.dll"
+      ],
+      "zipfile": {
+        "filename": "4552bc2b1f269654dde4b8a31c7e571c.7z",
+        "crc": 1161109801,
+        "zipfileSize": 7130834
+      },
+      "changelog": ""
+    }
+  }
+}
