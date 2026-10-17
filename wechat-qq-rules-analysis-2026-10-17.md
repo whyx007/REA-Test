@@ -47,6 +47,13 @@ XML 中明确注释：QQ 空间缓存规则在新版本可能没有内容，但�
 
 ## 4. 功能包与插件边界
 
+插件 DLL 内部还嵌有软信息 XML，静态字符串证据显示：
+
+- `kwechatcleanup.dll`：`soft_id=70005042`，`kismain_command=kwechatcleanup`，引擎配置 `kwcdeepclean.dat`，轻量规则 `kwclitesearch.dat`，另引用 `kwclitesearch_prescan.dat`；权限键为 `kclean_weixin`，缓存组为 `wechatclean`，预扫描/界面互斥体分别带有固定 GUID。
+- `kqqcleanup.dll`：`soft_id=60000116`，`kismain_command=kqqcleanup`，引擎配置 `kqqdeepclean.dat`，轻量规则和预扫描规则均指向 `kqqlitesearch.dat`；权限键为 `kclean_qq`，缓存组为 `QQclean`，同样定义独立 UI/预扫描互斥体。
+
+这些字段确认了“主程序 -> 专用插件 -> 规则文件”的调用边界，也确认微信存在一个单独的 `kwclitesearch_prescan.dat` 引用；当前样本目录未保存该文件，因此预扫描规则的完整内容仍未知。上述字符串来自 REA Ghidra 静态字符串证据：微信 `ev_3b80e744fefd5a96d729745ef50769039fae4892a8d2039c771db4bbe45d7b97`，QQ `ev_f0fdeb401181b4a66d965264da20a2125dcfaef2d66ada180dc5009f22525e47`。
+
 历史随附日志 `ksgdiskcleanup.KSubpackDownload.dll.log` 显示：
 
 - 主程序分别请求 `wechat_clean` 和 `qq_clean` 功能；两者各自声明 `subPackCount=7`。
