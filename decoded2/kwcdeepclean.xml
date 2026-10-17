@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ksoftdeepclear version="2023.02.08.01">
+    
+    <!--
+        displaypatten 字段含义，展示模式 0 传统展示方案，展示文件名，路径，大小
+                                展示模式 1 图片，视频或其它有封面的文件展示方案，展示封面信息
+                                展示模式 2 视频展示方案，例如视频，动态图
+
+        sort 字段含义， 排序type 0 传统按照大小进行排序
+                        排序type 1 按照时间进行排序
+                        排序type 2 主排序按照时间进行，内部排序按照大小进行
+        特别注意
+                        id，cid在硬盘管理大师的产品里面，可能会被用作界面点击情况收集，非必要不要修改，如果新增分类必须在原id最大值进行增加，避免数据异常
+    -->
+    
+    <softlist>
+    
+        <soft id="70005042" name="微信">
+            <category cid="102" name="聊天视频" show="3"><!--一级分类-->
+                <subcategory id="1021" displaypatten="2" name="聊天视频" deletefolder="1" open="1"><!--二级分类-->
+                    <rules>
+                        <rule id="1008" selected="1" />
+                    </rules>
+                    <sort type="1">
+                        <virlimit id="1" selected="0" show="3"/><!--如果配置有name="xxx"，是三级分类-->
+                        <!--
+                        重要tips：category也可以配置show，用法和下面内容一样，如果category配置show代表整个一级分类按照show的意思进行处理，sort配置的show无效
+                        
+                        show="1"代表二级分类和三级分类合并,，展示在二级分类上面，使用()展示三级分类内容，
+                        show="0"代表二级分类和三级分类合并,，展示在二级分类上面，并且三级分类的名称不显示，
+                        
+                        20230206，根据产品需求，以下字段值属于新增
+                        show="2"代表二级分类和三级分类取消展示，检出内容在一级分类展示，一级分类下面，如果有show=2，只能只有subcategory下面的subcategory只有一个，多个则属于非法配置
+                        
+                        virlimit节点和limit互斥关系，里面只有id="1" selected="0" show="3"这三个字段，专门用于虚拟分组场景
+                        show = 3,4只适用virlimit里面
+                        show="3"代表二级分类和三级分类取消展示，检出的内容，根据文件修改时间获取xx年xx月，拼接二级分类的name，形成虚拟的二级分类展示，比如文件创建时间2023年1月，则显示虚拟二级分类为2023年01月聊天视频
+                        show="4"代表二级分类和三级分类取消展示，检出的内容，根据文件修改时间获取xx年xx季度，拼接二级分类的name，形成虚拟的二级分类展示，比如文件创建时间2023年1季度，则显示虚拟二级分类为2023年01季度聊天视频
+                        
+                        -->
+                    </sort>
+                </subcategory>
+            </category>
+            <category cid="103" name="聊天图片" show="3">
+                <subcategory id="1031" displaypatten="1" name="聊天图片" deletefolder="1">
+                    <rules>
+                        <rule id="1007" selected="1" />
+                    </rules>
+                    <sort type="1"> 
+                        <!--limit id="1" name="最近7天" endtime="604800" selected="0" show="1"/--><!--time是秒的单位,计算文件离当前计算机的时间-->
+                        <virlimit id="1" selected="0" show="3"/>
+                    </sort>
+                </subcategory>
+            </category>
+            <category cid="104" name="接收文件" show="0">
+            
+                <subcategory id="1041" displaypatten="0" name="办公文档" deletefolder="1" open="1">
+                    <rules>
+                        <rule id="1018" selected="1" /><!--UUID = "5FB8C7E1-D9F7-4B1A-A58E-5E8A402E268A"-->
+                    </rules>
+                    <sort type="1">
+                        <limit id="1" selected="0" show="0"/>
+                    </sort>
+                </subcategory>
+                <subcategory id="1042" displaypatten="1" name="视频" deletefolder="1" open="1">
+                    <rules>
+                        <rule id="1019" selected="1" /><!--UUID = "732853F8-F278-4913-B559-E708E9C8E10A"-->
+                    </rules>
+                    <sort type="1">
+                        <limit id="1" selected="0" show="0"/>
+                    </sort>
+                </subcategory>
+                <subcategory id="1043" displaypatten="1" name="图片" deletefolder="1" open="1">
+                    <rules>
+                        <rule id="1020" selected="1" /><!--UUID = "ABACB91A-5616-47B3-B593-F920ACC03946"-->
+                    </rules>
+                    <sort type="1">
+                        <limit id="1" selected="0" show="0"/>
+                    </sort>
+                </subcategory>
+                <subcategory id="1044" displaypatten="0" name="音乐" deletefolder="1" open="1">
+                    <rules>
+                        <rule id="1021" selected="1" /><!--UUID = "BD514903-7E12-4A78-B095-D5E927769D72"-->
+                    </rules>
+                    <sort type="1">
+                        <limit id="1" selected="0" show="0"/>
+                    </sort>
+                </subcategory>
+                <subcategory id="1045" displaypatten="0" name="压缩包" deletefolder="1" open="1">
+                    <rules>
+                        <rule id="1022" selected="1" /><!--UUID = "0B335645-FBCC-4640-9A33-3CFA0B500029"-->
+                    </rules>
+                    <sort type="1">
+                        <limit id="1" selected="0" show="0"/>
+                    </sort>
+                </subcategory>
+            
+            
+                <subcategory id="1046" displaypatten="0" name="其他" deletefolder="1">
+                    <rules>
+                        <rule id="1009" selected="1" />
+                    </rules>
+                    <sort type="1">
+                        <limit id="1" selected="0" show="0"/>
+                    </sort>
+                </subcategory>
+            </category>
+            <category cid="105" name="缓存" show="0">
+                <subcategory id="1051" displaypatten="0" name="更新缓存" deletefolder="0">
+                    <rules> <!-- 检索的规则 -->
+                        <rule id="1003" selected="1" />
+                    </rules>
+                    <sort type="0">
+                        <limit id="1" selected="1" show="0"/>
+                    </sort>
+                </subcategory>
+                <subcategory id="1052" displaypatten="0" name="小程序缓存" deletefolder="1">
+                    <rules>
+                        <rule id="1004" selected="1" />
+                    </rules>
+                    <sort type="1">
+                        <limit id="1" selected="1" show="0"/>
+                    </sort>
+                </subcategory>
+                <subcategory id="1053" displaypatten="1" name="公众号缓存" deletefolder="1" open="1">
+                    <rules>
+                        <rule id="1005" selected="1" />
+                    </rules>
+                    <sort type="1">
+                         <limit id="1" selected="1" show="0"/>
+                    </sort>
+                </subcategory>
+                <subcategory id="1054" displaypatten="0" name="表情缓存" deletefolder="1">
+                    <rules>
+                        <rule id="1015" selected="0" />
+                    </rules>
+                    <sort type="0">
+                        <limit id="1" selected="0" show="0"/>
+                    </sort>
+                </subcategory>
+                <subcategory id="1055" displaypatten="0" name="微信资讯缓存" deletefolder="1">
+                    <rules>
+                        <rule id="1017" selected="1" />
+                    </rules>
+                    <sort type="0">
+                        <limit id="1" selected="1" show="0"/>
+                    </sort>
+                </subcategory>
+                <subcategory id="1056" displaypatten="0" name="其他缓存" deletefolder="1">
+                    <rules>
+                        <rule id="1006" selected="1" />
+                    </rules>
+                    <sort type="0">
+                        <limit id="1" selected="1" show="0"/>
+                    </sort>
+                </subcategory>
+                <subcategory id="1057" displaypatten="0" name="手机微信的备份记录" deletefolder="1">
+                    <rules>
+                        <rule id="1014" selected="0" />
+                    </rules>
+                    <sort type="1">
+                        <limit id="1" selected="0" show="0"/>
+                    </sort>
+                </subcategory>
+            </category>
+
+            <category cid="106" name="日志" show="2">
+                <subcategory id="1061" displaypatten="0" name="微信日志" deletefolder="0">
+                    <rules> <!-- 检索的规则 -->
+                        <rule id="1001" selected="1" /><!--是sort和rule的值同时为1默认选中--><!--微信日志-->
+                        <rule id="1002" selected="1" /><!--小程序日志-->
+                    </rules>
+                    <sort type="0">
+                        <limit id="1" selected="1" show="2"/>
+                    </sort>
+                </subcategory>
+            </category>
+            <category cid="107" name="朋友圈" show="2">
+                <subcategory id="1071" displaypatten="0" name="朋友圈缓存" deletefolder="1">
+                    <rules>
+                        <rule id="1016" selected="1" />
+                    </rules>
+                    <sort type="1">
+                        <limit id="1" selected="1" show="2"/>
+                    </sort>
+                </subcategory>
+            </category>
+        </soft>
+        
+        
+        
+    </softlist>
+</ksoftdeepclear>

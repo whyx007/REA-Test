@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<klitesearch version="1" >
+    <!-- 本配置文件只关注规则的格式，规则本身，其余和业务关联的配置如过滤等信息不关注 -->
+    <ruletype>
+        <type id="1" descript="script" />
+    </ruletype>
+    
+    <rulelist>
+        <rule id="1001" typeid="1" uuid="053FEF88-3D76-42A5-B27B-178C4C8DC998" limit="0" descript="微信应用日志" /><!--230206适配硬件管理大师-->
+        <rule id="1002" typeid="1" uuid="98F4DD58-770E-47F9-A830-43E6B0C192B0" limit="0" descript="微信小程序日志" /><!--230206适配硬件管理大师-->
+        <rule id="1003" typeid="1" uuid="A44A0C56-CCBE-48C1-B00F-CB23B817668D" limit="0" descript="软件更新缓存" /><!--230206适配硬件管理大师-->
+        <rule id="1004" typeid="1" uuid="DD1476F9-553E-4D01-A8B9-AD116544F73C" limit="0" descript="小程序缓存" /><!--230206适配硬件管理大师-->
+        <rule id="1005" typeid="1" uuid="F220C9E5-D945-4B70-B38B-F64EB7387561" limit="0" descript="公众号缓存" /><!--图片预览,230206适配硬件管理大师-->
+        <rule id="1006" typeid="1" uuid="F5465AA4-6C31-4442-AEEA-FD099E8667E5" limit="0" descript="其他缓存" /><!--部分图片预览,230206适配硬件管理大师-->
+        <rule id="1007" typeid="1" uuid="4B81F997-1952-4165-A120-74D8210D75F4" limit="0" descript="聊天图片" /><!--图片预览，230206适配硬件管理大师-->
+        <rule id="1008" typeid="1" uuid="EC21A613-E357-4C87-8318-C9B4867AF34F" limit="0" descript="聊天视频" /><!--视频封面预览，230206适配硬件管理大师-->
+        <rule id="1009" typeid="1" uuid="919D0905-6020-4BDA-8E47-CC4446CCFEA8" limit="0" descript="其他" /><!--230206适配硬件管理大师-->
+        <rule id="1014" typeid="1" uuid="C0893E8F-0681-4854-9C93-6F71A6EBAF04" limit="0" descript="手机聊天的备份记录" /><!--230206适配硬件管理大师-->
+        <rule id="1015" typeid="1" uuid="F20B8609-14A6-42DE-9207-09FA6DADD0E9" limit="0" descript="表情缓存" /><!--图片预览--><!--230206适配硬件管理大师-->
+        <rule id="1016" typeid="1" uuid="661367C7-8EE0-40BC-ADB0-08976ED479F4" limit="0" descript="朋友圈缓存" /><!--230206适配硬件管理大师-->
+        <rule id="1017" typeid="1" uuid="5F550EA4-CA7C-4CE4-8EBC-8D584FF54C8C" limit="0" descript="微信资讯缓存" /><!--230206适配硬件管理大师-->
+        <rule id="1018" typeid="1" uuid="5FB8C7E1-D9F7-4B1A-A58E-5E8A402E268A" limit="0" descript="办公文档" /><!--230206适配硬件管理大师-->
+        <rule id="1019" typeid="1" uuid="732853F8-F278-4913-B559-E708E9C8E10A" limit="0" descript="视频" /><!--230206适配硬件管理大师-->
+        <rule id="1020" typeid="1" uuid="ABACB91A-5616-47B3-B593-F920ACC03946" limit="0" descript="图片" /><!--230206适配硬件管理大师-->
+        <rule id="1021" typeid="1" uuid="BD514903-7E12-4A78-B095-D5E927769D72" limit="0" descript="音乐" /><!--230206适配硬件管理大师-->
+        <rule id="1022" typeid="1" uuid="0B335645-FBCC-4640-9A33-3CFA0B500029" limit="0" descript="压缩包" /><!--230206适配硬件管理大师-->
+        <rule id="1023" typeid="1" uuid="826346B4-D9A4-4D05-91AF-9F3788DFD282" limit="0" descript="迁移文件" /><!--230206适配硬件管理大师-->
+    </rulelist>
+    
+</klitesearch>

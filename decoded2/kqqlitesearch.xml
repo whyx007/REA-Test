@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<klitesearch version="1" >
+    <!-- 本配置文件只关注规则的格式，规则本身，其余和业务关联的配置如过滤等信息不关注 -->
+    <ruletype>
+        <type id="1" descript="script" />
+    </ruletype>
+    
+    <rulelist>
+        <rule id="2001" typeid="1" uuid="01F5AC2D-6F26-494F-A846-ECD6B9C8BC9A" limit="0" descript="QQ聊天时收到的视频" /><!--230206适配硬件管理大师-->
+        <rule id="2002" typeid="1" uuid="A36B83A2-029B-4D25-8233-E5BF3387D390" limit="0" descript="好友聊天图片" /><!--230206适配硬件管理大师-->
+        <rule id="2003" typeid="1" uuid="8ABB184C-5A8B-487E-AC91-223B4EE82C2D" limit="0" descript="群组聊天图片" /><!--230206适配硬件管理大师-->
+        <rule id="2004" typeid="1" uuid="AFD750BF-A0B2-42D0-8B46-1AE281840C6C" limit="0" descript="软件缓存" /><!--230206适配硬件管理大师-->
+        <rule id="2005" typeid="1" uuid="93C3BD52-5E14-423C-9ADB-8563F5546E0C" limit="0" descript="插件缓存" /><!--230206适配硬件管理大师-->
+        <rule id="2006" typeid="1" uuid="C5B93D63-7D12-4127-9A4A-F8870A94654B" limit="0" descript="QQ空间缓存" /><!--230206适配硬件管理大师-->
+        <rule id="2007" typeid="1" uuid="18CFCB78-84C2-4A1B-A728-508FBA812D76" limit="0" descript="更新缓存（旧版本文件）" /><!--230206适配硬件管理大师-->
+        <rule id="2008" typeid="1" uuid="AF785876-9B53-4DD8-97A7-B03122FB19A2" limit="0" descript="升级残留文件" /><!--230206适配硬件管理大师-->
+        <rule id="2009" typeid="1" uuid="D6D1BEE5-B363-4CB7-AD71-7C54A145985C" limit="0" descript="表情缓存" /><!--230206适配硬件管理大师-->
+        <rule id="2010" typeid="1" uuid="FF2E2D97-572D-4CCE-ABE6-5414985F062C" limit="0" descript="接收其他的文件" />
+        <rule id="2011" typeid="1" uuid="EEC4F9A8-BE2B-4897-9859-A2D1158B46DF" limit="0" descript="QQ聊天语音" />
+        <rule id="2012" typeid="1" uuid="46E46C10-50E8-4772-AB3F-286538956FBB" limit="0" descript="接收视频的文件" />
+        <rule id="2013" typeid="1" uuid="58BDF746-7288-4D36-8DE6-C35E6B8C43E5" limit="0" descript="接收图片的文件" />
+        <rule id="2014" typeid="1" uuid="733C0D30-487E-4A13-A16F-4BADA3DE5DD3" limit="0" descript="接收压缩包的文件" />
+        <rule id="2015" typeid="1" uuid="F207373D-75AC-463C-9DCE-63BF0C345C90" limit="0" descript="接收办公的文件" />
+        <rule id="2016" typeid="1" uuid="2A442742-C323-4321-90CA-1CE14E1DC88B" limit="0" descript="接收音乐的文件" />
+        
+    </rulelist>
+    
+</klitesearch>

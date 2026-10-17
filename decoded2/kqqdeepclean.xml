@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ksoftdeepclear version="2023.02.08.01">
+    
+    <!--
+        displaypatten 字段含义，展示模式 0 传统展示方案，展示文件名，路径，大小
+                                展示模式 1 图片，视频或其它有封面的文件展示方案，展示封面信息
+                                展示模式 2 视频展示方案，例如视频，动态图
+
+        sort 字段含义， 排序type 0 传统按照大小进行排序
+                        排序type 1 按照时间进行排序
+                        排序type 2 主排序按照时间进行，内部排序按照大小进行
+    -->
+    
+    <softlist>
+        <soft id="60000116" name="腾讯QQ">
+            <category cid="102" name="聊天视频" show="3">
+                <subcategory id="1021" displaypatten="2" name="聊天视频" deletefolder="1" open="1"><!--open="1"代表界面可以双击打开这里面分组的内容，displaypatten=1或者2也可以达到这个目的-->
+                    <rules>
+                        <rule id="2001" selected="1" />
+                    </rules>
+                    <sort type="1">
+                        <virlimit id="1" selected="0" show="3"/>
+                    </sort>
+                </subcategory>
+            </category>
+            <category cid="103" name="聊天图片" show="3">
+                <subcategory id="1031" displaypatten="1" name="聊天图片" deletefolder="1" open="1">
+                    <rules>
+                        <rule id="2002" selected="1" />
+                        <rule id="2003" selected="1" />
+                    </rules>
+                    <sort type="1"> 
+                        <virlimit id="1" selected="0" show="3"/>
+                    </sort>
+                </subcategory>
+            </category>
+            <!--
+            <category cid="104" name="群聊图片" show="3">
+                <subcategory id="1041" displaypatten="1" name="群聊图片" deletefolder="1" open="1">
+                    <rules>
+                        <rule id="2003" selected="1" />
+                    </rules>
+                    <sort type="1"> 
+                        <virlimit id="1" selected="0" show="3"/>
+                    </sort>
+                </subcategory>
+            </category>
+            -->
+            <category cid="105" name="缓存" show="0">
+                <subcategory id="1051" displaypatten="0" name="软件缓存" deletefolder="1">
+                    <rules>
+                        <rule id="2004" selected="1" />
+                    </rules>
+                    <sort type="1">
+                        <limit id="1" selected="0" show="0"/>
+                    </sort>
+                </subcategory>
+                <subcategory id="1052" displaypatten="0" name="插件缓存" deletefolder="1">
+                    <rules>
+                        <rule id="2005" selected="1" />
+                        <rule id="2006" selected="1" /><!--QQ空间缓存，新版这个路径没有内容，保留规则，并入其他分类-->
+                    </rules>
+                    <sort type="1">
+                        <limit id="1" selected="1" show="0"/>
+                    </sort>
+                </subcategory>
+                <subcategory id="1053" displaypatten="0" name="更新缓存" deletefolder="1">
+                    <rules>
+                        <rule id="2007" selected="1" />
+                        <rule id="2008" selected="1" />
+                    </rules>
+                    <sort type="1">
+                        <limit id="1" selected="1" show="0"/>
+                    </sort>
+                </subcategory>
+                <subcategory id="1054" displaypatten="0" name="表情缓存" deletefolder="1">
+                    <rules>
+                        <rule id="2009" selected="1" />
+                    </rules>
+                    <sort type="1">
+                        <limit id="1" selected="1" show="0"/>
+                    </sort>
+                </subcategory>
+
+            </category>
+            <category cid="106" name="聊天语音" show="3">
+                
+                
+                <subcategory id="1061" displaypatten="0" name="聊天语音" deletefolder="1">
+                    <rules>
+                        <rule id="2011" selected="0" />
+                    </rules>
+                    <sort type="1">
+                        <virlimit id="1" selected="0" show="3"/>
+                    </sort>
+                </subcategory>
+            </category>
+            <category cid="107" name="接收文件" show="0">
+            
+            
+                <subcategory id="1071" displaypatten="0" name="办公文档" deletefolder="0" open="1">
+                    <rules> <!-- 检索的规则 -->
+                        <rule id="2015" selected="1" /><!--UUID = "F207373D-75AC-463C-9DCE-63BF0C345C90"-->
+                    </rules>
+                    <sort type="0">
+                        <limit id="1" selected="0" show="0"/>
+                    </sort>
+                </subcategory>
+                <subcategory id="1072" displaypatten="1" name="视频" deletefolder="0" open="1">
+                    <rules> <!-- 检索的规则 -->
+                        <rule id="2012" selected="1" /><!--UUID = "46E46C10-50E8-4772-AB3F-286538956FBB"-->
+                    </rules>
+                    <sort type="0">
+                        <limit id="1" selected="0" show="0"/>
+                    </sort>
+                </subcategory>
+                <subcategory id="1073" displaypatten="1" name="图片" deletefolder="0" open="1">
+                    <rules> <!-- 检索的规则 -->
+                        <rule id="2013" selected="1" /><!--UUID = "58BDF746-7288-4D36-8DE6-C35E6B8C43E5"-->
+                    </rules>
+                    <sort type="0">
+                        <limit id="1" selected="0" show="0"/>
+                    </sort>
+                </subcategory>
+                <subcategory id="1074" displaypatten="0" name="音乐" deletefolder="0" open="1">
+                    <rules> <!-- 检索的规则 -->
+                        <rule id="2016" selected="1" /><!--UUID = "2A442742-C323-4321-90CA-1CE14E1DC88B"-->
+                    </rules>
+                    <sort type="0">
+                        <limit id="1" selected="0" show="0"/>
+                    </sort>
+                </subcategory>
+                <subcategory id="1075" displaypatten="0" name="压缩包" deletefolder="0" open="1">
+                    <rules> <!-- 检索的规则 -->
+                        <rule id="2014" selected="1" /><!--UUID = "733C0D30-487E-4A13-A16F-4BADA3DE5DD3"-->
+                    </rules>
+                    <sort type="0">
+                        <limit id="1" selected="0" show="0"/>
+                    </sort>
+                </subcategory>
+                <subcategory id="1076" displaypatten="0" name="其他" deletefolder="0">
+                    <rules> <!-- 检索的规则 -->
+                        <rule id="2010" selected="1" />
+                    </rules>
+                    <sort type="0">
+                        <limit id="1" selected="0" show="0"/>
+                    </sort>
+                </subcategory>
+            </category>
+
+        </soft>
+        
+        
+    </softlist>
+</ksoftdeepclear>

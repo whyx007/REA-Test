@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ksoftdeepclear version="2021.04.12.01">
+    
+    <!--
+        displaypatten 字段含义，展示模式 0 传统展示方案，展示文件名，路径，大小
+                                展示模式 1 图片，视频或其它有封面的文件展示方案，展示封面信息
+                                展示模式 2 视频展示方案，例如视频，动态图
+
+        sort 字段含义， 排序type 0 传统按照大小进行排序
+                        排序type 1 按照时间进行排序
+                        排序type 2 主排序按照时间进行，内部排序按照大小进行
+    -->
+    
+    <softlist>
+    
+        <soft id="70005042" name="微信" tips="微信使用过程中产生视频、图片、日志等文件">
+        
+            <category cid="1" name="软件日志">
+                <subcategory id="1" displaypatten="0" name="微信日志" deletefolder="0">
+                    <rules> <!-- 检索的规则 -->
+                        <rule id="1001" selected="1" /><!--是sort和rule的值同时为1默认选中-->
+                        <rule id="1002" selected="1" />
+                    </rules>
+                    <sort type="0">
+                        <limit id="1" selected="1" show="0"/><!--show="0"代表二级分类和三级分类合并,，展示在二级分类上面，并且三级分类的名称不显示，time是秒的单位-->
+                    </sort>
+                </subcategory>
+            </category>
+        
+            <category cid="2" name="缓存和备份">
+                <subcategory id="1" displaypatten="0" name="微信缓存" deletefolder="0">
+                    <rules> <!-- 检索的规则 -->
+                        <rule id="1003" selected="1" />
+                        <rule id="1018" selected="1" />
+                        <rule id="1004" selected="1" />
+                        <rule id="1005" selected="1" />
+                        <rule id="1015" selected="1" />
+                        <rule id="1006" selected="1" />
+                        <rule id="1017" selected="1" />
+                        <rule id="1016" selected="1" />
+                    </rules>
+                    <sort type="0">
+                        <limit id="1" selected="1" show="0"/>
+                    </sort>
+                </subcategory>
+                <subcategory id="6" displaypatten="0" name="手机微信的备份记录" deletefolder="1">
+                    <rules>
+                        <rule id="1014" selected="0" />
+                    </rules>
+                    <sort type="0">
+                        <limit id="1" selected="0" show="0"/>
+                    </sort>
+                </subcategory>
+            </category>
+            
+            <category cid="3" name="聊天图片">
+                <subcategory id="1" displaypatten="0" name="聊天时接收的图片" deletefolder="1">
+                    <rules>
+                        <rule id="1007" selected="1" />
+                    </rules>
+                    <sort type="1"> 
+                        <limit id="1" name="最近1个月" endtime="2592000" selected="0" show="1"/> <!--show="1"代表二级分类和三级分类合并,，展示在二级分类上面，使用()展示三级分类内容，time是秒的单位-->
+                        <limit id="2" name="1个月前" begintime="2592001" endtime="15552000" selected="0" show="1"/>
+                        <limit id="3" name="6个月前" begintime="15552001" selected="1" show="1"/>
+                    </sort>
+                </subcategory>
+            </category>
+            <category cid="4" name="聊天视频">
+                <subcategory id="1" displaypatten="2" name="聊天时接收的视频" deletefolder="1">
+                    <rules>
+                        <rule id="1008" selected="1" />
+                    </rules>
+                    <sort type="1">
+                        <limit id="1" name="最近1个月" endtime="2592000" selected="0" show="1"/>
+                        <limit id="2" name="1个月前" begintime="2592001" endtime="15552000" selected="0" show="1"/>
+                        <limit id="3" name="6个月前" begintime="15552001" selected="1" show="1"/>
+                    </sort>
+                </subcategory>
+            </category>
+            
+            <category cid="5" name="接收的文件">
+                <subcategory id="1" displaypatten="0" name="接收的文件" deletefolder="1">
+                    <rules>
+                        <rule id="1009" selected="1" />
+                    </rules>
+                    <sort type="0">
+                         <limit id="1" selected="0" show="0"/>
+                    </sort>
+                </subcategory>
+            </category>
+        </soft>
+    </softlist>
+</ksoftdeepclear>

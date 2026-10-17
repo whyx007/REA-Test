@@ -1,0 +1,18 @@
+[24700|07-19 00:07:19|WARNING|KSoftIconIconDownloader.h:38] IconDownloader::Initialize() error m_SoftIconDownloadServer.Run()
+[24700|07-19 00:07:19|   INFO|KTrashConfigParser.cpp:249] Trashscan database version: 2025.7.18
+[24700|07-19 00:07:19|WARNING|KSoftIconIconDownloader.h:38] IconDownloader::Initialize() error m_SoftIconDownloadServer.Run()
+[14216|10-13 23:42:53|WARNING|KSoftIconIconDownloader.h:38] IconDownloader::Initialize() error m_SoftIconDownloadServer.Run()
+[14216|10-13 23:42:53|   INFO|KTrashConfigParser.cpp:249] Trashscan database version: 2025.7.18
+[14216|10-13 23:42:53|  ERROR|KSoftMoveDBManger.cpp:306] sql execute error!!! [sql]:CREATE INDEX INDEX_HISTORY ON HISTORY(MOVE_TIME); [errorMsg]:index INDEX_HISTORY already exists
+[14216|10-13 23:42:53|  ERROR|KSoftMoveDBManger.cpp:306] sql execute error!!! [sql]:CREATE INDEX INDEX_DATA_DIR_HISTORY ON DATA_DIR_HISTORY(MOVE_TIME); [errorMsg]:index INDEX_DATA_DIR_HISTORY already exists
+[14216|10-13 23:42:53|WARNING|KSoftIconIconDownloader.h:38] IconDownloader::Initialize() error m_SoftIconDownloadServer.Run()
+[20744|10-15 18:18:03|WARNING|KSoftIconIconDownloader.h:38] IconDownloader::Initialize() error m_SoftIconDownloadServer.Run()
+[20744|10-15 18:18:03|   INFO|KTrashConfigParser.cpp:249] Trashscan database version: 2025.7.18
+[20744|10-15 18:18:03|  ERROR|KSoftMoveDBManger.cpp:306] sql execute error!!! [sql]:CREATE INDEX INDEX_HISTORY ON HISTORY(MOVE_TIME); [errorMsg]:index INDEX_HISTORY already exists
+[20744|10-15 18:18:03|  ERROR|KSoftMoveDBManger.cpp:306] sql execute error!!! [sql]:CREATE INDEX INDEX_DATA_DIR_HISTORY ON DATA_DIR_HISTORY(MOVE_TIME); [errorMsg]:index INDEX_DATA_DIR_HISTORY already exists
+[20744|10-15 18:18:03|WARNING|KSoftIconIconDownloader.h:38] IconDownloader::Initialize() error m_SoftIconDownloadServer.Run()
+[27408|10-15 19:24:00|WARNING|KSoftIconIconDownloader.h:38] IconDownloader::Initialize() error m_SoftIconDownloadServer.Run()
+[27408|10-15 19:24:00|   INFO|KTrashConfigParser.cpp:249] Trashscan database version: 2025.7.18
+[27408|10-15 19:24:00|  ERROR|KSoftMoveDBManger.cpp:306] sql execute error!!! [sql]:CREATE INDEX INDEX_HISTORY ON HISTORY(MOVE_TIME); [errorMsg]:index INDEX_HISTORY already exists
+[27408|10-15 19:24:00|  ERROR|KSoftMoveDBManger.cpp:306] sql execute error!!! [sql]:CREATE INDEX INDEX_DATA_DIR_HISTORY ON DATA_DIR_HISTORY(MOVE_TIME); [errorMsg]:index INDEX_DATA_DIR_HISTORY already exists
+[27408|10-15 19:24:00|WARNING|KSoftIconIconDownloader.h:38] IconDownloader::Initialize() error m_SoftIconDownloadServer.Run()

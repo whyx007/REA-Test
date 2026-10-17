@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<klitesearch version="1" >
+    <!-- 本配置文件只关注规则的格式，规则本身，其余和业务关联的配置如过滤等信息不关注 -->
+    <ruletype>
+        <type id="1" descript="script" />
+    </ruletype>
+    
+    <rulelist>
+        <rule id="1001" typeid="1" uuid="15e1284d-7f50-4721-92af-aa79b7d5e6db" limit="0" descript="微信应用日志" />
+        <rule id="1002" typeid="1" uuid="d2487bb5-e07e-46ce-b7c0-442b1c69881a" limit="0" descript="微信小程序日志" />
+        <rule id="1003" typeid="1" uuid="bc7b504f-9088-431b-b884-fcd6e76cca0d" limit="0" descript="软件更新缓存" />
+        <rule id="1004" typeid="1" uuid="576d9c05-a92c-4c35-99a0-9824e847c5b2" limit="0" descript="小程序缓存" />
+        <rule id="1005" typeid="1" uuid="a25071ae-a393-4f8e-9474-09d8a75390d4" limit="0" descript="公众号缓存" /><!--图片预览-->
+        <rule id="1006" typeid="1" uuid="0c1edada-dc46-4908-bee3-205cb6476d29" limit="0" descript="其他缓存" /><!--部分图片预览-->
+        <rule id="1007" typeid="1" uuid="defaeb6b-b5a4-48c0-bfce-b03e22bddfd2" limit="0" descript="聊天图片" /><!--图片预览-->
+        <rule id="1008" typeid="1" uuid="38387629-1fa1-492a-87f6-1f7190911274" limit="0" descript="聊天视频" /><!--视频封面预览-->
+        <rule id="1009" typeid="1" uuid="9AB29D89-AAC3-466B-BE2F-9D7927007D12" limit="0" descript="接收的电脑安装包" />
+        <rule id="1010" typeid="1" uuid="2a607bb2-1599-422d-b09c-cf7540005f17" limit="0" descript="接收的办公文档" />
+        <rule id="1011" typeid="1" uuid="024ee94e-32ac-4591-a6de-3ef463795f0a" limit="0" descript="接收的影音文件" />
+        <rule id="1012" typeid="1" uuid="398eaecd-3794-4a61-85af-966e822a18f4" limit="0" descript="接收的压缩文件" />
+        <rule id="1013" typeid="1" uuid="586e73af-632a-48d3-b25f-5e4c467825a9" limit="0" descript="接受的其他文件" />
+        <rule id="1014" typeid="1" uuid="3cadbec2-b1e1-4c1c-8b20-8699fa725f81" limit="0" descript="手机聊天的备份记录" />
+        <rule id="1015" typeid="1" uuid="6c57be44-400a-4972-9df2-11e903e0d888" limit="0" descript="表情缓存" /><!--图片预览-->
+        <rule id="1016" typeid="1" uuid="7c0dbe21-203f-4165-a710-7f6ef16261c5" limit="0" descript="朋友圈缓存" />
+        <rule id="1017" typeid="1" uuid="5fcce55f-41a0-48f3-8294-6c570853b367" limit="0" descript="微信资讯缓存" />
+        <rule id="1018" typeid="1" uuid="4791C5C4-74DF-408F-BFBC-A50C7EB9FBB8" limit="0" descript="微信旧版本缓存" />
+        <rule id="1019" typeid="1" uuid="36A479D0-9A3E-46DD-87A5-246DFD867CEB" limit="0" descript="迁移文件" />
+    </rulelist>
+    
+</klitesearch>

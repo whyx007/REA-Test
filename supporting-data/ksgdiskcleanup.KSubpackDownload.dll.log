@@ -1,0 +1,323 @@
+[35104|2026-07-19 00:07:19|   INFO|DownloadQueue.cpp:39] [DownloadQueue] Initialized with max concurrency: 3
+[35104|2026-07-19 00:07:19|   INFO|PackageDownloadManager.cpp:85] PackageDownloadManager initialized, installPath=C:\Users\Aimer\AppData\Local\kdiskmgr_sogou\
+[35104|2026-07-19 00:07:19|   INFO|ProductPackageImpl.cpp:47] ProductPackageImpl::Initialize this=156789B8,nRet=0
+[2532 |2026-07-19 00:07:19|   INFO|ConfigManager.cpp:149] [ConfigManager] Successfully read file from 7z memory: subpackinfo.json, size=6001 bytes
+[2532 |2026-07-19 00:07:19|   INFO|ConfigManager.cpp:183] [ConfigManager] Config version: 1.0.0
+[2532 |2026-07-19 00:07:19|   INFO|ConfigManager.cpp:186] [ConfigManager] Build time: 2026-06-09 14:22:21
+[2532 |2026-07-19 00:07:19|   INFO|ConfigManager.cpp:64] [ConfigManager] Initialized successfully, functions=9, subpacks=10
+[2532 |2026-07-19 00:07:19|   INFO|PackageDownloadManager.cpp:82] [PackageDownloadManager] Success to initialize ConfigManager
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:146] FunctionDownloader::Start funcid=sysslim,m_eStatus=0
+[35104|2026-07-19 00:07:19|   INFO|PackageDownloadManager.cpp:192] PackageDownloadManager::DownloadFunction Start finished
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:187] FunctionDownloader started, functionId=sysslim, subPackCount=6
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:200] FunctionDownloader started, IsSubPackReadyLocally functionId=sysslim, subPackId=pkg_base
+[35104|2026-07-19 00:07:19|   INFO|ProductPackageImpl.cpp:208] ProductPackageImpl::DownloadFunction , szFunctionId =sysslim, nRet=0
+[35104|2026-07-19 00:07:19|   INFO|PackageDownloadManager.cpp:192] PackageDownloadManager::DownloadFunction Start finished
+[35104|2026-07-19 00:07:19|   INFO|ProductPackageImpl.cpp:208] ProductPackageImpl::DownloadFunction , szFunctionId =defrag, nRet=0
+[35104|2026-07-19 00:07:19|   INFO|PackageDownloadManager.cpp:192] PackageDownloadManager::DownloadFunction Start finished
+[35104|2026-07-19 00:07:19|   INFO|ProductPackageImpl.cpp:208] ProductPackageImpl::DownloadFunction , szFunctionId =privacy, nRet=0
+[35104|2026-07-19 00:07:19|   INFO|PackageDownloadManager.cpp:192] PackageDownloadManager::DownloadFunction Start finished
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:200] FunctionDownloader started, IsSubPackReadyLocally functionId=sysslim, subPackId=base
+[35104|2026-07-19 00:07:19|   INFO|ProductPackageImpl.cpp:208] ProductPackageImpl::DownloadFunction , szFunctionId =largefile, nRet=0
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:200] FunctionDownloader started, IsSubPackReadyLocally functionId=sysslim, subPackId=miniblink
+[35104|2026-07-19 00:07:19|   INFO|PackageDownloadManager.cpp:192] PackageDownloadManager::DownloadFunction Start finished
+[35104|2026-07-19 00:07:19|   INFO|ProductPackageImpl.cpp:208] ProductPackageImpl::DownloadFunction , szFunctionId =dupfile, nRet=0
+[35104|2026-07-19 00:07:19|   INFO|PackageDownloadManager.cpp:192] PackageDownloadManager::DownloadFunction Start finished
+[35104|2026-07-19 00:07:19|   INFO|ProductPackageImpl.cpp:208] ProductPackageImpl::DownloadFunction , szFunctionId =wechat_clean, nRet=0
+[35104|2026-07-19 00:07:19|   INFO|PackageDownloadManager.cpp:192] PackageDownloadManager::DownloadFunction Start finished
+[35104|2026-07-19 00:07:19|   INFO|ProductPackageImpl.cpp:208] ProductPackageImpl::DownloadFunction , szFunctionId =qq_clean, nRet=0
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:200] FunctionDownloader started, IsSubPackReadyLocally functionId=sysslim, subPackId=qt
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:200] FunctionDownloader started, IsSubPackReadyLocally functionId=sysslim, subPackId=pkg_sysslim
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:200] FunctionDownloader started, IsSubPackReadyLocally functionId=sysslim, subPackId=pkg_base_egn
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:254] FunctionDownloader started, all subpack has ready ok functionId=sysslim
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:456] FunctionDownloader::NotifyExternalListeners , m_strFunctionId=sysslim, nErrorCode=0, szErrorMsg=all subpack has ready ok
+[35104|2026-07-19 00:07:19|   INFO|PackageDownloadManager.cpp:192] PackageDownloadManager::DownloadFunction Start finished
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:146] FunctionDownloader::Start funcid=defrag,m_eStatus=0
+[35104|2026-07-19 00:07:19|   INFO|ProductPackageImpl.cpp:208] ProductPackageImpl::DownloadFunction , szFunctionId =filedestroy, nRet=0
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:187] FunctionDownloader started, functionId=defrag, subPackCount=5
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:200] FunctionDownloader started, IsSubPackReadyLocally functionId=defrag, subPackId=pkg_base
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:200] FunctionDownloader started, IsSubPackReadyLocally functionId=defrag, subPackId=base
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:200] FunctionDownloader started, IsSubPackReadyLocally functionId=defrag, subPackId=miniblink
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:200] FunctionDownloader started, IsSubPackReadyLocally functionId=defrag, subPackId=qt
+[2532 |2026-07-19 00:07:19|   INFO|ConfigManager.cpp:370] SubPackConfig::IsReadyOk false by file:C:\Users\Aimer\AppData\Local\kdiskmgr_sogou\defragui.dll
+[2532 |2026-07-19 00:07:19|   INFO|PackageDownloadManager.cpp:323] PackageDownloadManager created new SubPackageDownloader, subPackId=pkg_pry_defrg
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:265] FunctionDownloader started, Enqueue functionId=defrag,subpackid=pkg_pry_defrg
+[2532 |2026-07-19 00:07:19|   INFO|DownloadQueue.cpp:111] [DownloadQueue] NOT in queuePending Enqueued normal priority task: pkg_pry_defrg
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:146] FunctionDownloader::Start funcid=privacy,m_eStatus=0
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:187] FunctionDownloader started, functionId=privacy, subPackCount=5
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:200] FunctionDownloader started, IsSubPackReadyLocally functionId=privacy, subPackId=pkg_base
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:200] FunctionDownloader started, IsSubPackReadyLocally functionId=privacy, subPackId=base
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:200] FunctionDownloader started, IsSubPackReadyLocally functionId=privacy, subPackId=miniblink
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:200] FunctionDownloader started, IsSubPackReadyLocally functionId=privacy, subPackId=qt
+[2532 |2026-07-19 00:07:19|   INFO|ConfigManager.cpp:370] SubPackConfig::IsReadyOk false by file:C:\Users\Aimer\AppData\Local\kdiskmgr_sogou\defragui.dll
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:265] FunctionDownloader started, Enqueue functionId=privacy,subpackid=pkg_pry_defrg
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:146] FunctionDownloader::Start funcid=largefile,m_eStatus=0
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:187] FunctionDownloader started, functionId=largefile, subPackCount=7
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:200] FunctionDownloader started, IsSubPackReadyLocally functionId=largefile, subPackId=pkg_base
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:200] FunctionDownloader started, IsSubPackReadyLocally functionId=largefile, subPackId=base
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:200] FunctionDownloader started, IsSubPackReadyLocally functionId=largefile, subPackId=miniblink
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:200] FunctionDownloader started, IsSubPackReadyLocally functionId=largefile, subPackId=qt
+[2532 |2026-07-19 00:07:19|   INFO|ConfigManager.cpp:370] SubPackConfig::IsReadyOk false by file:C:\Users\Aimer\AppData\Local\kdiskmgr_sogou\data\klargecleanup.dat
+[2532 |2026-07-19 00:07:19|   INFO|PackageDownloadManager.cpp:323] PackageDownloadManager created new SubPackageDownloader, subPackId=pkg_bigfile
+[2532 |2026-07-19 00:07:19|   INFO|ConfigManager.cpp:370] SubPackConfig::IsReadyOk false by file:C:\Users\Aimer\AppData\Local\kdiskmgr_sogou\kdiskcleancore.exe
+[2532 |2026-07-19 00:07:19|   INFO|PackageDownloadManager.cpp:323] PackageDownloadManager created new SubPackageDownloader, subPackId=pkg_qq_we_pp
+[19240|2026-07-19 00:07:19|   INFO|DownloadQueue.cpp:192] DownloadQueue::ExecuteDownloadTask start: subpackid=pkg_pry_defrg
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:200] FunctionDownloader started, IsSubPackReadyLocally functionId=largefile, subPackId=pkg_base_egn
+[24052|2026-07-19 00:07:19|   INFO|DownloadQueue.cpp:178] DownloadQueue::ProcessPendingTasks pick sub pack download failed
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:265] FunctionDownloader started, Enqueue functionId=largefile,subpackid=pkg_bigfile
+[2532 |2026-07-19 00:07:19|   INFO|DownloadQueue.cpp:111] [DownloadQueue] NOT in queuePending Enqueued normal priority task: pkg_bigfile
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:265] FunctionDownloader started, Enqueue functionId=largefile,subpackid=pkg_qq_we_pp
+[24052|2026-07-19 00:07:19|   INFO|DownloadQueue.cpp:192] DownloadQueue::ExecuteDownloadTask start: subpackid=pkg_bigfile
+[2532 |2026-07-19 00:07:19|   INFO|DownloadQueue.cpp:111] [DownloadQueue] NOT in queuePending Enqueued normal priority task: pkg_qq_we_pp
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:146] FunctionDownloader::Start funcid=dupfile,m_eStatus=0
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:187] FunctionDownloader started, functionId=dupfile, subPackCount=6
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:200] FunctionDownloader started, IsSubPackReadyLocally functionId=dupfile, subPackId=pkg_base
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:200] FunctionDownloader started, IsSubPackReadyLocally functionId=dupfile, subPackId=base
+[11484|2026-07-19 00:07:19|   INFO|DownloadQueue.cpp:192] DownloadQueue::ExecuteDownloadTask start: subpackid=pkg_qq_we_pp
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:200] FunctionDownloader started, IsSubPackReadyLocally functionId=dupfile, subPackId=miniblink
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:200] FunctionDownloader started, IsSubPackReadyLocally functionId=dupfile, subPackId=qt
+[2532 |2026-07-19 00:07:19|   INFO|ConfigManager.cpp:370] SubPackConfig::IsReadyOk false by file:C:\Users\Aimer\AppData\Local\kdiskmgr_sogou\kdiskcleancore.exe
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:200] FunctionDownloader started, IsSubPackReadyLocally functionId=dupfile, subPackId=pkg_base_egn
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:265] FunctionDownloader started, Enqueue functionId=dupfile,subpackid=pkg_qq_we_pp
+[2532 |2026-07-19 00:07:19|   INFO|DownloadQueue.cpp:86] [DownloadQueue] Enqueued is already in download set: pkg_qq_we_pp
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:146] FunctionDownloader::Start funcid=wechat_clean,m_eStatus=0
+[19240|2026-07-19 00:07:19|   INFO|SubPackageDownloader.cpp:462] SubPackageDownloader start subPackId=pkg_pry_defrg
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:187] FunctionDownloader started, functionId=wechat_clean, subPackCount=7
+[24052|2026-07-19 00:07:19|   INFO|SubPackageDownloader.cpp:462] SubPackageDownloader start subPackId=pkg_bigfile
+[11484|2026-07-19 00:07:19|   INFO|SubPackageDownloader.cpp:462] SubPackageDownloader start subPackId=pkg_qq_we_pp
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:200] FunctionDownloader started, IsSubPackReadyLocally functionId=wechat_clean, subPackId=pkg_base
+[19240|2026-07-19 00:07:19|   INFO|ConfigManager.cpp:370] SubPackConfig::IsReadyOk false by file:C:\Users\Aimer\AppData\Local\kdiskmgr_sogou\defragui.dll
+[11484|2026-07-19 00:07:19|   INFO|ConfigManager.cpp:370] SubPackConfig::IsReadyOk false by file:C:\Users\Aimer\AppData\Local\kdiskmgr_sogou\kdiskcleancore.exe
+[24052|2026-07-19 00:07:19|   INFO|ConfigManager.cpp:370] SubPackConfig::IsReadyOk false by file:C:\Users\Aimer\AppData\Local\kdiskmgr_sogou\data\klargecleanup.dat
+[19240|2026-07-19 00:07:19|   INFO|SubPackageDownloader.cpp:265] SubPackageDownloader::DownloadImpl URL constructed, subpackid=pkg_pry_defrg, bPubComponent=0, rootUrl=https://pkg-disk-genius-cdn.sogou-diskmgr.com/public/3rdsg/diskmgr/, subDir=subpacks, fullUrl=https://pkg-disk-genius-cdn.sogou-diskmgr.com/public/3rdsg/diskmgr/subpacks/73a0997a1a801b065eb5bdf72cf14067.7z
+[11484|2026-07-19 00:07:19|   INFO|SubPackageDownloader.cpp:265] SubPackageDownloader::DownloadImpl URL constructed, subpackid=pkg_qq_we_pp, bPubComponent=0, rootUrl=https://pkg-disk-genius-cdn.sogou-diskmgr.com/public/3rdsg/diskmgr/, subDir=subpacks, fullUrl=https://pkg-disk-genius-cdn.sogou-diskmgr.com/public/3rdsg/diskmgr/subpacks/f74ceaf8ffc5170e486acd54315af4b4.7z
+[24052|2026-07-19 00:07:19|   INFO|SubPackageDownloader.cpp:265] SubPackageDownloader::DownloadImpl URL constructed, subpackid=pkg_bigfile, bPubComponent=0, rootUrl=https://pkg-disk-genius-cdn.sogou-diskmgr.com/public/3rdsg/diskmgr/, subDir=subpacks, fullUrl=https://pkg-disk-genius-cdn.sogou-diskmgr.com/public/3rdsg/diskmgr/subpacks/2dd46f1c773b819607b9e806b866700a.7z
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:200] FunctionDownloader started, IsSubPackReadyLocally functionId=wechat_clean, subPackId=base
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:200] FunctionDownloader started, IsSubPackReadyLocally functionId=wechat_clean, subPackId=miniblink
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:200] FunctionDownloader started, IsSubPackReadyLocally functionId=wechat_clean, subPackId=qt
+[2532 |2026-07-19 00:07:19|   INFO|ConfigManager.cpp:370] SubPackConfig::IsReadyOk false by file:C:\Users\Aimer\AppData\Local\kdiskmgr_sogou\data\klargecleanup.dat
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:200] FunctionDownloader started, IsSubPackReadyLocally functionId=wechat_clean, subPackId=pkg_base_egn
+[11484|2026-07-19 00:07:19|   INFO|SubPackageDownloader.cpp:301] SubPackageDownloader::DownloadImpl before DownLoad file, subpackid=pkg_qq_we_pp, nRetry=0, strFullUrl=https://pkg-disk-genius-cdn.sogou-diskmgr.com/public/3rdsg/diskmgr/subpacks/f74ceaf8ffc5170e486acd54315af4b4.7z, strLocalPath=C:\Users\Aimer\AppData\Local\kdiskmgr_sogou\subpacks\pkg_qq_we_pp_11484_535441265.7z
+[2532 |2026-07-19 00:07:19|   INFO|ConfigManager.cpp:370] SubPackConfig::IsReadyOk false by file:C:\Users\Aimer\AppData\Local\kdiskmgr_sogou\kdiskcleancore.exe
+[24052|2026-07-19 00:07:19|   INFO|SubPackageDownloader.cpp:301] SubPackageDownloader::DownloadImpl before DownLoad file, subpackid=pkg_bigfile, nRetry=0, strFullUrl=https://pkg-disk-genius-cdn.sogou-diskmgr.com/public/3rdsg/diskmgr/subpacks/2dd46f1c773b819607b9e806b866700a.7z, strLocalPath=C:\Users\Aimer\AppData\Local\kdiskmgr_sogou\subpacks\pkg_bigfile_24052_535441265.7z
+[19240|2026-07-19 00:07:19|   INFO|SubPackageDownloader.cpp:301] SubPackageDownloader::DownloadImpl before DownLoad file, subpackid=pkg_pry_defrg, nRetry=0, strFullUrl=https://pkg-disk-genius-cdn.sogou-diskmgr.com/public/3rdsg/diskmgr/subpacks/73a0997a1a801b065eb5bdf72cf14067.7z, strLocalPath=C:\Users\Aimer\AppData\Local\kdiskmgr_sogou\subpacks\pkg_pry_defrg_19240_535441265.7z
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:265] FunctionDownloader started, Enqueue functionId=wechat_clean,subpackid=pkg_bigfile
+[2532 |2026-07-19 00:07:19|   INFO|DownloadQueue.cpp:86] [DownloadQueue] Enqueued is already in download set: pkg_bigfile
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:265] FunctionDownloader started, Enqueue functionId=wechat_clean,subpackid=pkg_qq_we_pp
+[2532 |2026-07-19 00:07:19|   INFO|DownloadQueue.cpp:86] [DownloadQueue] Enqueued is already in download set: pkg_qq_we_pp
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:146] FunctionDownloader::Start funcid=qq_clean,m_eStatus=0
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:187] FunctionDownloader started, functionId=qq_clean, subPackCount=7
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:200] FunctionDownloader started, IsSubPackReadyLocally functionId=qq_clean, subPackId=pkg_base
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:200] FunctionDownloader started, IsSubPackReadyLocally functionId=qq_clean, subPackId=base
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:200] FunctionDownloader started, IsSubPackReadyLocally functionId=qq_clean, subPackId=miniblink
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:200] FunctionDownloader started, IsSubPackReadyLocally functionId=qq_clean, subPackId=qt
+[2532 |2026-07-19 00:07:19|   INFO|ConfigManager.cpp:370] SubPackConfig::IsReadyOk false by file:C:\Users\Aimer\AppData\Local\kdiskmgr_sogou\data\klargecleanup.dat
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:200] FunctionDownloader started, IsSubPackReadyLocally functionId=qq_clean, subPackId=pkg_base_egn
+[2532 |2026-07-19 00:07:19|   INFO|ConfigManager.cpp:370] SubPackConfig::IsReadyOk false by file:C:\Users\Aimer\AppData\Local\kdiskmgr_sogou\kdiskcleancore.exe
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:265] FunctionDownloader started, Enqueue functionId=qq_clean,subpackid=pkg_bigfile
+[2532 |2026-07-19 00:07:19|   INFO|DownloadQueue.cpp:86] [DownloadQueue] Enqueued is already in download set: pkg_bigfile
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:265] FunctionDownloader started, Enqueue functionId=qq_clean,subpackid=pkg_qq_we_pp
+[2532 |2026-07-19 00:07:19|   INFO|DownloadQueue.cpp:86] [DownloadQueue] Enqueued is already in download set: pkg_qq_we_pp
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:146] FunctionDownloader::Start funcid=filedestroy,m_eStatus=0
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:187] FunctionDownloader started, functionId=filedestroy, subPackCount=4
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:200] FunctionDownloader started, IsSubPackReadyLocally functionId=filedestroy, subPackId=pkg_base
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:200] FunctionDownloader started, IsSubPackReadyLocally functionId=filedestroy, subPackId=base
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:200] FunctionDownloader started, IsSubPackReadyLocally functionId=filedestroy, subPackId=miniblink
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:200] FunctionDownloader started, IsSubPackReadyLocally functionId=filedestroy, subPackId=qt
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:254] FunctionDownloader started, all subpack has ready ok functionId=filedestroy
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:456] FunctionDownloader::NotifyExternalListeners , m_strFunctionId=filedestroy, nErrorCode=0, szErrorMsg=all subpack has ready ok
+[35104|2026-07-19 00:07:19|   INFO|PackageDownloadManager.cpp:165] PackageDownloadManager::IsSubPackReadyOk result=1,id=pkg_base
+[35104|2026-07-19 00:07:19|   INFO|PackageDownloadManager.cpp:165] PackageDownloadManager::IsSubPackReadyOk result=1,id=base
+[35104|2026-07-19 00:07:19|   INFO|PackageDownloadManager.cpp:165] PackageDownloadManager::IsSubPackReadyOk result=1,id=miniblink
+[35104|2026-07-19 00:07:19|   INFO|PackageDownloadManager.cpp:165] PackageDownloadManager::IsSubPackReadyOk result=1,id=qt
+[35104|2026-07-19 00:07:19|   INFO|PackageDownloadManager.cpp:165] PackageDownloadManager::IsSubPackReadyOk result=1,id=pkg_sysslim
+[35104|2026-07-19 00:07:19|   INFO|PackageDownloadManager.cpp:165] PackageDownloadManager::IsSubPackReadyOk result=1,id=pkg_base_egn
+[35104|2026-07-19 00:07:19|   INFO|PackageDownloadManager.cpp:141] PackageDownloadManager::IsFuncReadyOk true,szFunctionId=sysslim
+[24052|2026-07-19 00:07:19|   INFO|SubPackageDownloader.cpp:307] SubPackageDownloader::DownloadImpl end DownLoad file, subpackid=pkg_bigfile, nRetry=0, strFullUrl=https://pkg-disk-genius-cdn.sogou-diskmgr.com/public/3rdsg/diskmgr/subpacks/2dd46f1c773b819607b9e806b866700a.7z, strLocalPath=C:\Users\Aimer\AppData\Local\kdiskmgr_sogou\subpacks\pkg_bigfile_24052_535441265.7z
+[24052|2026-07-19 00:07:19|   INFO|SubPackageDownloader.cpp:339] SubPackageDownloader::DownloadImpl ReadFileToBuffer file size success, subpackid=pkg_bigfile, size=1615650
+[24052|2026-07-19 00:07:19|  ERROR|SubPackageDownloader.cpp:595] SubPackageDownloader::VerifyCRC32 expectedCrc=1282802012, calc crc=1282802012
+[11484|2026-07-19 00:07:19|   INFO|SubPackageDownloader.cpp:307] SubPackageDownloader::DownloadImpl end DownLoad file, subpackid=pkg_qq_we_pp, nRetry=0, strFullUrl=https://pkg-disk-genius-cdn.sogou-diskmgr.com/public/3rdsg/diskmgr/subpacks/f74ceaf8ffc5170e486acd54315af4b4.7z, strLocalPath=C:\Users\Aimer\AppData\Local\kdiskmgr_sogou\subpacks\pkg_qq_we_pp_11484_535441265.7z
+[11484|2026-07-19 00:07:19|   INFO|SubPackageDownloader.cpp:339] SubPackageDownloader::DownloadImpl ReadFileToBuffer file size success, subpackid=pkg_qq_we_pp, size=3975516
+[24052|2026-07-19 00:07:19|   INFO|CommonComponentCache.cpp:742] CommonComponentCache::CopyFiles: Start, sourceDir=C:\Users\Aimer\AppData\Local\kdiskmgr_sogou\subpacks\pkg_bigfile_24052_535441265\, destDir=C:\Users\Aimer\AppData\Local\kdiskmgr_sogou\, mapSize=0, modifyPermission=0
+[24052|2026-07-19 00:07:19|   INFO|CommonComponentCache.cpp:752] CommonComponentCache::CopyFiles: Recursive copy mode (all files)
+[11484|2026-07-19 00:07:19|  ERROR|SubPackageDownloader.cpp:595] SubPackageDownloader::VerifyCRC32 expectedCrc=3365548114, calc crc=3365548114
+[19240|2026-07-19 00:07:19|   INFO|SubPackageDownloader.cpp:307] SubPackageDownloader::DownloadImpl end DownLoad file, subpackid=pkg_pry_defrg, nRetry=0, strFullUrl=https://pkg-disk-genius-cdn.sogou-diskmgr.com/public/3rdsg/diskmgr/subpacks/73a0997a1a801b065eb5bdf72cf14067.7z, strLocalPath=C:\Users\Aimer\AppData\Local\kdiskmgr_sogou\subpacks\pkg_pry_defrg_19240_535441265.7z
+[24052|2026-07-19 00:07:19|   INFO|CommonComponentCache.cpp:829] CommonComponentCache::CopyFiles: ✅ Success
+[24052|2026-07-19 00:07:19|   INFO|CommonComponentCache.cpp:956] CommonComponentCache::RemoveDirectoryRecursive: Start, path=C:\Users\Aimer\AppData\Local\kdiskmgr_sogou\subpacks\pkg_bigfile_24052_535441265, deleteSelf=1
+[24052|2026-07-19 00:07:19|   INFO|CommonComponentCache.cpp:956] CommonComponentCache::RemoveDirectoryRecursive: Start, path=C:\Users\Aimer\AppData\Local\kdiskmgr_sogou\subpacks\pkg_bigfile_24052_535441265\data, deleteSelf=1
+[24052|2026-07-19 00:07:19|   INFO|CommonComponentCache.cpp:1029] CommonComponentCache::RemoveDirectoryRecursive: ✅ Success, path=C:\Users\Aimer\AppData\Local\kdiskmgr_sogou\subpacks\pkg_bigfile_24052_535441265\data, deleted=1, total=1
+[24052|2026-07-19 00:07:19|   INFO|CommonComponentCache.cpp:1029] CommonComponentCache::RemoveDirectoryRecursive: ✅ Success, path=C:\Users\Aimer\AppData\Local\kdiskmgr_sogou\subpacks\pkg_bigfile_24052_535441265, deleted=3, total=3
+[24052|2026-07-19 00:07:19|   INFO|SubPackageDownloader.cpp:464] SubPackageDownloader Download completed subPackId=pkg_bigfile,downloadResult=
+[24052|2026-07-19 00:07:19|   INFO|DownloadQueue.cpp:195] DownloadQueue::ExecuteDownloadTask Download subpackid=pkg_bigfile,downloadResult=,use_time=203
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:338] FunctionDownloader::OnDownloadSubPackResult funcid=largefile, szSubPackId=pkg_bigfile, nErrorCode=0, szErrorMsg=success
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:338] FunctionDownloader::OnDownloadSubPackResult funcid=wechat_clean, szSubPackId=pkg_bigfile, nErrorCode=0, szErrorMsg=success
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:338] FunctionDownloader::OnDownloadSubPackResult funcid=qq_clean, szSubPackId=pkg_bigfile, nErrorCode=0, szErrorMsg=success
+[19240|2026-07-19 00:07:19|   INFO|SubPackageDownloader.cpp:339] SubPackageDownloader::DownloadImpl ReadFileToBuffer file size success, subpackid=pkg_pry_defrg, size=4289817
+[19240|2026-07-19 00:07:19|  ERROR|SubPackageDownloader.cpp:595] SubPackageDownloader::VerifyCRC32 expectedCrc=2657514404, calc crc=2657514404
+[11484|2026-07-19 00:07:19|   INFO|CommonComponentCache.cpp:742] CommonComponentCache::CopyFiles: Start, sourceDir=C:\Users\Aimer\AppData\Local\kdiskmgr_sogou\subpacks\pkg_qq_we_pp_11484_535441265\, destDir=C:\Users\Aimer\AppData\Local\kdiskmgr_sogou\, mapSize=0, modifyPermission=0
+[11484|2026-07-19 00:07:19|   INFO|CommonComponentCache.cpp:752] CommonComponentCache::CopyFiles: Recursive copy mode (all files)
+[11484|2026-07-19 00:07:19|   INFO|CommonComponentCache.cpp:829] CommonComponentCache::CopyFiles: ✅ Success
+[11484|2026-07-19 00:07:19|   INFO|CommonComponentCache.cpp:956] CommonComponentCache::RemoveDirectoryRecursive: Start, path=C:\Users\Aimer\AppData\Local\kdiskmgr_sogou\subpacks\pkg_qq_we_pp_11484_535441265, deleteSelf=1
+[11484|2026-07-19 00:07:19|   INFO|CommonComponentCache.cpp:956] CommonComponentCache::RemoveDirectoryRecursive: Start, path=C:\Users\Aimer\AppData\Local\kdiskmgr_sogou\subpacks\pkg_qq_we_pp_11484_535441265\data, deleteSelf=1
+[11484|2026-07-19 00:07:19|   INFO|CommonComponentCache.cpp:1029] CommonComponentCache::RemoveDirectoryRecursive: ✅ Success, path=C:\Users\Aimer\AppData\Local\kdiskmgr_sogou\subpacks\pkg_qq_we_pp_11484_535441265\data, deleted=6, total=6
+[11484|2026-07-19 00:07:19|   INFO|CommonComponentCache.cpp:1029] CommonComponentCache::RemoveDirectoryRecursive: ✅ Success, path=C:\Users\Aimer\AppData\Local\kdiskmgr_sogou\subpacks\pkg_qq_we_pp_11484_535441265, deleted=9, total=9
+[11484|2026-07-19 00:07:19|   INFO|SubPackageDownloader.cpp:464] SubPackageDownloader Download completed subPackId=pkg_qq_we_pp,downloadResult=
+[11484|2026-07-19 00:07:19|   INFO|DownloadQueue.cpp:195] DownloadQueue::ExecuteDownloadTask Download subpackid=pkg_qq_we_pp,downloadResult=,use_time=328
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:338] FunctionDownloader::OnDownloadSubPackResult funcid=largefile, szSubPackId=pkg_qq_we_pp, nErrorCode=0, szErrorMsg=success
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:456] FunctionDownloader::NotifyExternalListeners , m_strFunctionId=largefile, nErrorCode=0, szErrorMsg=success
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:338] FunctionDownloader::OnDownloadSubPackResult funcid=dupfile, szSubPackId=pkg_qq_we_pp, nErrorCode=0, szErrorMsg=success
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:456] FunctionDownloader::NotifyExternalListeners , m_strFunctionId=dupfile, nErrorCode=0, szErrorMsg=success
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:338] FunctionDownloader::OnDownloadSubPackResult funcid=wechat_clean, szSubPackId=pkg_qq_we_pp, nErrorCode=0, szErrorMsg=success
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:456] FunctionDownloader::NotifyExternalListeners , m_strFunctionId=wechat_clean, nErrorCode=0, szErrorMsg=success
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:338] FunctionDownloader::OnDownloadSubPackResult funcid=qq_clean, szSubPackId=pkg_qq_we_pp, nErrorCode=0, szErrorMsg=success
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:456] FunctionDownloader::NotifyExternalListeners , m_strFunctionId=qq_clean, nErrorCode=0, szErrorMsg=success
+[19240|2026-07-19 00:07:19|   INFO|CommonComponentCache.cpp:742] CommonComponentCache::CopyFiles: Start, sourceDir=C:\Users\Aimer\AppData\Local\kdiskmgr_sogou\subpacks\pkg_pry_defrg_19240_535441265\, destDir=C:\Users\Aimer\AppData\Local\kdiskmgr_sogou\, mapSize=0, modifyPermission=0
+[19240|2026-07-19 00:07:19|   INFO|CommonComponentCache.cpp:752] CommonComponentCache::CopyFiles: Recursive copy mode (all files)
+[19240|2026-07-19 00:07:19|   INFO|CommonComponentCache.cpp:829] CommonComponentCache::CopyFiles: ✅ Success
+[19240|2026-07-19 00:07:19|   INFO|CommonComponentCache.cpp:956] CommonComponentCache::RemoveDirectoryRecursive: Start, path=C:\Users\Aimer\AppData\Local\kdiskmgr_sogou\subpacks\pkg_pry_defrg_19240_535441265, deleteSelf=1
+[19240|2026-07-19 00:07:19|   INFO|CommonComponentCache.cpp:956] CommonComponentCache::RemoveDirectoryRecursive: Start, path=C:\Users\Aimer\AppData\Local\kdiskmgr_sogou\subpacks\pkg_pry_defrg_19240_535441265\data, deleteSelf=1
+[19240|2026-07-19 00:07:19|   INFO|CommonComponentCache.cpp:1029] CommonComponentCache::RemoveDirectoryRecursive: ✅ Success, path=C:\Users\Aimer\AppData\Local\kdiskmgr_sogou\subpacks\pkg_pry_defrg_19240_535441265\data, deleted=1, total=1
+[19240|2026-07-19 00:07:19|   INFO|CommonComponentCache.cpp:956] CommonComponentCache::RemoveDirectoryRecursive: Start, path=C:\Users\Aimer\AppData\Local\kdiskmgr_sogou\subpacks\pkg_pry_defrg_19240_535441265\prdata, deleteSelf=1
+[19240|2026-07-19 00:07:19|   INFO|CommonComponentCache.cpp:1029] CommonComponentCache::RemoveDirectoryRecursive: ✅ Success, path=C:\Users\Aimer\AppData\Local\kdiskmgr_sogou\subpacks\pkg_pry_defrg_19240_535441265\prdata, deleted=8, total=8
+[19240|2026-07-19 00:07:19|   INFO|CommonComponentCache.cpp:1029] CommonComponentCache::RemoveDirectoryRecursive: ✅ Success, path=C:\Users\Aimer\AppData\Local\kdiskmgr_sogou\subpacks\pkg_pry_defrg_19240_535441265, deleted=8, total=8
+[19240|2026-07-19 00:07:19|   INFO|SubPackageDownloader.cpp:464] SubPackageDownloader Download completed subPackId=pkg_pry_defrg,downloadResult=
+[19240|2026-07-19 00:07:19|   INFO|DownloadQueue.cpp:195] DownloadQueue::ExecuteDownloadTask Download subpackid=pkg_pry_defrg,downloadResult=,use_time=422
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:338] FunctionDownloader::OnDownloadSubPackResult funcid=defrag, szSubPackId=pkg_pry_defrg, nErrorCode=0, szErrorMsg=success
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:456] FunctionDownloader::NotifyExternalListeners , m_strFunctionId=defrag, nErrorCode=0, szErrorMsg=success
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:338] FunctionDownloader::OnDownloadSubPackResult funcid=privacy, szSubPackId=pkg_pry_defrg, nErrorCode=0, szErrorMsg=success
+[2532 |2026-07-19 00:07:19|   INFO|FunctionDownloader.cpp:456] FunctionDownloader::NotifyExternalListeners , m_strFunctionId=privacy, nErrorCode=0, szErrorMsg=success
+[35104|2026-07-19 00:11:51|   INFO|DownloadQueue.cpp:69] [DownloadQueue] Uninitialized
+[35104|2026-07-19 00:11:51|   INFO|PackageDownloadManager.cpp:104] PackageDownloadManager uninitializing, refCount=0
+[35104|2026-07-19 00:11:51|   INFO|ProductPackageImpl.cpp:61] ProductPackageImpl::Uninitialize this=156789B8
+[23512|2026-10-13 23:42:53|   INFO|DownloadQueue.cpp:39] [DownloadQueue] Initialized with max concurrency: 3
+[23512|2026-10-13 23:42:53|   INFO|PackageDownloadManager.cpp:85] PackageDownloadManager initialized, installPath=C:\Users\Aimer\AppData\Local\kdiskmgr_sogou\
+[23512|2026-10-13 23:42:53|   INFO|ProductPackageImpl.cpp:47] ProductPackageImpl::Initialize this=04DEEDB0,nRet=0
+[8248 |2026-10-13 23:42:53|   INFO|ConfigManager.cpp:149] [ConfigManager] Successfully read file from 7z memory: subpackinfo.json, size=6001 bytes
+[8248 |2026-10-13 23:42:53|   INFO|ConfigManager.cpp:183] [ConfigManager] Config version: 1.0.0
+[8248 |2026-10-13 23:42:53|   INFO|ConfigManager.cpp:186] [ConfigManager] Build time: 2026-06-09 14:22:21
+[8248 |2026-10-13 23:42:53|   INFO|ConfigManager.cpp:64] [ConfigManager] Initialized successfully, functions=9, subpacks=10
+[8248 |2026-10-13 23:42:53|   INFO|PackageDownloadManager.cpp:82] [PackageDownloadManager] Success to initialize ConfigManager
+[23512|2026-10-13 23:42:53|   INFO|PackageDownloadManager.cpp:192] PackageDownloadManager::DownloadFunction Start finished
+[23512|2026-10-13 23:42:53|   INFO|ProductPackageImpl.cpp:208] ProductPackageImpl::DownloadFunction , szFunctionId =sysslim, nRet=0
+[23512|2026-10-13 23:42:53|   INFO|PackageDownloadManager.cpp:192] PackageDownloadManager::DownloadFunction Start finished
+[23512|2026-10-13 23:42:53|   INFO|ProductPackageImpl.cpp:208] ProductPackageImpl::DownloadFunction , szFunctionId =defrag, nRet=0
+[23512|2026-10-13 23:42:53|   INFO|PackageDownloadManager.cpp:192] PackageDownloadManager::DownloadFunction Start finished
+[23512|2026-10-13 23:42:53|   INFO|ProductPackageImpl.cpp:208] ProductPackageImpl::DownloadFunction , szFunctionId =privacy, nRet=0
+[23512|2026-10-13 23:42:53|   INFO|PackageDownloadManager.cpp:192] PackageDownloadManager::DownloadFunction Start finished
+[23512|2026-10-13 23:42:53|   INFO|ProductPackageImpl.cpp:208] ProductPackageImpl::DownloadFunction , szFunctionId =largefile, nRet=0
+[23512|2026-10-13 23:42:53|   INFO|PackageDownloadManager.cpp:192] PackageDownloadManager::DownloadFunction Start finished
+[23512|2026-10-13 23:42:53|   INFO|ProductPackageImpl.cpp:208] ProductPackageImpl::DownloadFunction , szFunctionId =dupfile, nRet=0
+[23512|2026-10-13 23:42:53|   INFO|PackageDownloadManager.cpp:192] PackageDownloadManager::DownloadFunction Start finished
+[23512|2026-10-13 23:42:53|   INFO|ProductPackageImpl.cpp:208] ProductPackageImpl::DownloadFunction , szFunctionId =wechat_clean, nRet=0
+[23512|2026-10-13 23:42:53|   INFO|PackageDownloadManager.cpp:192] PackageDownloadManager::DownloadFunction Start finished
+[23512|2026-10-13 23:42:53|   INFO|ProductPackageImpl.cpp:208] ProductPackageImpl::DownloadFunction , szFunctionId =qq_clean, nRet=0
+[23512|2026-10-13 23:42:53|   INFO|PackageDownloadManager.cpp:192] PackageDownloadManager::DownloadFunction Start finished
+[23512|2026-10-13 23:42:53|   INFO|ProductPackageImpl.cpp:208] ProductPackageImpl::DownloadFunction , szFunctionId =filedestroy, nRet=0
+[8248 |2026-10-13 23:42:53|   INFO|FunctionDownloader.cpp:146] FunctionDownloader::Start funcid=sysslim,m_eStatus=0
+[8248 |2026-10-13 23:42:53|   INFO|FunctionDownloader.cpp:456] FunctionDownloader::NotifyExternalListeners , m_strFunctionId=sysslim, nErrorCode=0, szErrorMsg=not need download by full flag file exist
+[8248 |2026-10-13 23:42:53|   INFO|FunctionDownloader.cpp:146] FunctionDownloader::Start funcid=defrag,m_eStatus=0
+[8248 |2026-10-13 23:42:53|   INFO|FunctionDownloader.cpp:456] FunctionDownloader::NotifyExternalListeners , m_strFunctionId=defrag, nErrorCode=0, szErrorMsg=not need download by full flag file exist
+[8248 |2026-10-13 23:42:53|   INFO|FunctionDownloader.cpp:146] FunctionDownloader::Start funcid=privacy,m_eStatus=0
+[8248 |2026-10-13 23:42:53|   INFO|FunctionDownloader.cpp:456] FunctionDownloader::NotifyExternalListeners , m_strFunctionId=privacy, nErrorCode=0, szErrorMsg=not need download by full flag file exist
+[8248 |2026-10-13 23:42:53|   INFO|FunctionDownloader.cpp:146] FunctionDownloader::Start funcid=largefile,m_eStatus=0
+[8248 |2026-10-13 23:42:53|   INFO|FunctionDownloader.cpp:456] FunctionDownloader::NotifyExternalListeners , m_strFunctionId=largefile, nErrorCode=0, szErrorMsg=not need download by full flag file exist
+[8248 |2026-10-13 23:42:53|   INFO|FunctionDownloader.cpp:146] FunctionDownloader::Start funcid=dupfile,m_eStatus=0
+[8248 |2026-10-13 23:42:53|   INFO|FunctionDownloader.cpp:456] FunctionDownloader::NotifyExternalListeners , m_strFunctionId=dupfile, nErrorCode=0, szErrorMsg=not need download by full flag file exist
+[8248 |2026-10-13 23:42:53|   INFO|FunctionDownloader.cpp:146] FunctionDownloader::Start funcid=wechat_clean,m_eStatus=0
+[8248 |2026-10-13 23:42:53|   INFO|FunctionDownloader.cpp:456] FunctionDownloader::NotifyExternalListeners , m_strFunctionId=wechat_clean, nErrorCode=0, szErrorMsg=not need download by full flag file exist
+[8248 |2026-10-13 23:42:53|   INFO|FunctionDownloader.cpp:146] FunctionDownloader::Start funcid=qq_clean,m_eStatus=0
+[8248 |2026-10-13 23:42:53|   INFO|FunctionDownloader.cpp:456] FunctionDownloader::NotifyExternalListeners , m_strFunctionId=qq_clean, nErrorCode=0, szErrorMsg=not need download by full flag file exist
+[8248 |2026-10-13 23:42:53|   INFO|FunctionDownloader.cpp:146] FunctionDownloader::Start funcid=filedestroy,m_eStatus=0
+[8248 |2026-10-13 23:42:53|   INFO|FunctionDownloader.cpp:456] FunctionDownloader::NotifyExternalListeners , m_strFunctionId=filedestroy, nErrorCode=0, szErrorMsg=not need download by full flag file exist
+[23512|2026-10-13 23:42:53|   INFO|PackageDownloadManager.cpp:117] PackageDownloadManager::IsFuncReadyOk true by fullfile flag id=sysslim
+[23512|2026-10-13 23:44:26|   INFO|PackageDownloadManager.cpp:117] PackageDownloadManager::IsFuncReadyOk true by fullfile flag id=sysslim
+[23512|2026-10-13 23:44:53|   INFO|DownloadQueue.cpp:69] [DownloadQueue] Uninitialized
+[23512|2026-10-13 23:44:53|   INFO|PackageDownloadManager.cpp:104] PackageDownloadManager uninitializing, refCount=0
+[23512|2026-10-13 23:44:53|   INFO|ProductPackageImpl.cpp:61] ProductPackageImpl::Uninitialize this=04DEEDB0
+[12944|2026-10-15 18:18:03|   INFO|DownloadQueue.cpp:39] [DownloadQueue] Initialized with max concurrency: 3
+[12944|2026-10-15 18:18:03|   INFO|PackageDownloadManager.cpp:85] PackageDownloadManager initialized, installPath=C:\Users\Aimer\AppData\Local\kdiskmgr_sogou\
+[12944|2026-10-15 18:18:03|   INFO|ProductPackageImpl.cpp:47] ProductPackageImpl::Initialize this=08751A80,nRet=0
+[13756|2026-10-15 18:18:03|   INFO|ConfigManager.cpp:149] [ConfigManager] Successfully read file from 7z memory: subpackinfo.json, size=6001 bytes
+[13756|2026-10-15 18:18:03|   INFO|ConfigManager.cpp:183] [ConfigManager] Config version: 1.0.0
+[13756|2026-10-15 18:18:03|   INFO|ConfigManager.cpp:186] [ConfigManager] Build time: 2026-06-09 14:22:21
+[13756|2026-10-15 18:18:03|   INFO|ConfigManager.cpp:64] [ConfigManager] Initialized successfully, functions=9, subpacks=10
+[13756|2026-10-15 18:18:03|   INFO|PackageDownloadManager.cpp:82] [PackageDownloadManager] Success to initialize ConfigManager
+[12944|2026-10-15 18:18:03|   INFO|PackageDownloadManager.cpp:192] PackageDownloadManager::DownloadFunction Start finished
+[12944|2026-10-15 18:18:03|   INFO|ProductPackageImpl.cpp:208] ProductPackageImpl::DownloadFunction , szFunctionId =sysslim, nRet=0
+[12944|2026-10-15 18:18:03|   INFO|PackageDownloadManager.cpp:192] PackageDownloadManager::DownloadFunction Start finished
+[12944|2026-10-15 18:18:03|   INFO|ProductPackageImpl.cpp:208] ProductPackageImpl::DownloadFunction , szFunctionId =defrag, nRet=0
+[12944|2026-10-15 18:18:03|   INFO|PackageDownloadManager.cpp:192] PackageDownloadManager::DownloadFunction Start finished
+[12944|2026-10-15 18:18:03|   INFO|ProductPackageImpl.cpp:208] ProductPackageImpl::DownloadFunction , szFunctionId =privacy, nRet=0
+[12944|2026-10-15 18:18:03|   INFO|PackageDownloadManager.cpp:192] PackageDownloadManager::DownloadFunction Start finished
+[12944|2026-10-15 18:18:03|   INFO|ProductPackageImpl.cpp:208] ProductPackageImpl::DownloadFunction , szFunctionId =largefile, nRet=0
+[12944|2026-10-15 18:18:03|   INFO|PackageDownloadManager.cpp:192] PackageDownloadManager::DownloadFunction Start finished
+[12944|2026-10-15 18:18:03|   INFO|ProductPackageImpl.cpp:208] ProductPackageImpl::DownloadFunction , szFunctionId =dupfile, nRet=0
+[12944|2026-10-15 18:18:03|   INFO|PackageDownloadManager.cpp:192] PackageDownloadManager::DownloadFunction Start finished
+[12944|2026-10-15 18:18:03|   INFO|ProductPackageImpl.cpp:208] ProductPackageImpl::DownloadFunction , szFunctionId =wechat_clean, nRet=0
+[13756|2026-10-15 18:18:03|   INFO|FunctionDownloader.cpp:146] FunctionDownloader::Start funcid=sysslim,m_eStatus=0
+[12944|2026-10-15 18:18:03|   INFO|PackageDownloadManager.cpp:192] PackageDownloadManager::DownloadFunction Start finished
+[12944|2026-10-15 18:18:03|   INFO|ProductPackageImpl.cpp:208] ProductPackageImpl::DownloadFunction , szFunctionId =qq_clean, nRet=0
+[12944|2026-10-15 18:18:03|   INFO|PackageDownloadManager.cpp:192] PackageDownloadManager::DownloadFunction Start finished
+[12944|2026-10-15 18:18:03|   INFO|ProductPackageImpl.cpp:208] ProductPackageImpl::DownloadFunction , szFunctionId =filedestroy, nRet=0
+[13756|2026-10-15 18:18:03|   INFO|FunctionDownloader.cpp:456] FunctionDownloader::NotifyExternalListeners , m_strFunctionId=sysslim, nErrorCode=0, szErrorMsg=not need download by full flag file exist
+[13756|2026-10-15 18:18:03|   INFO|FunctionDownloader.cpp:146] FunctionDownloader::Start funcid=defrag,m_eStatus=0
+[13756|2026-10-15 18:18:03|   INFO|FunctionDownloader.cpp:456] FunctionDownloader::NotifyExternalListeners , m_strFunctionId=defrag, nErrorCode=0, szErrorMsg=not need download by full flag file exist
+[13756|2026-10-15 18:18:03|   INFO|FunctionDownloader.cpp:146] FunctionDownloader::Start funcid=privacy,m_eStatus=0
+[13756|2026-10-15 18:18:03|   INFO|FunctionDownloader.cpp:456] FunctionDownloader::NotifyExternalListeners , m_strFunctionId=privacy, nErrorCode=0, szErrorMsg=not need download by full flag file exist
+[13756|2026-10-15 18:18:03|   INFO|FunctionDownloader.cpp:146] FunctionDownloader::Start funcid=largefile,m_eStatus=0
+[13756|2026-10-15 18:18:03|   INFO|FunctionDownloader.cpp:456] FunctionDownloader::NotifyExternalListeners , m_strFunctionId=largefile, nErrorCode=0, szErrorMsg=not need download by full flag file exist
+[13756|2026-10-15 18:18:03|   INFO|FunctionDownloader.cpp:146] FunctionDownloader::Start funcid=dupfile,m_eStatus=0
+[13756|2026-10-15 18:18:03|   INFO|FunctionDownloader.cpp:456] FunctionDownloader::NotifyExternalListeners , m_strFunctionId=dupfile, nErrorCode=0, szErrorMsg=not need download by full flag file exist
+[13756|2026-10-15 18:18:03|   INFO|FunctionDownloader.cpp:146] FunctionDownloader::Start funcid=wechat_clean,m_eStatus=0
+[13756|2026-10-15 18:18:03|   INFO|FunctionDownloader.cpp:456] FunctionDownloader::NotifyExternalListeners , m_strFunctionId=wechat_clean, nErrorCode=0, szErrorMsg=not need download by full flag file exist
+[13756|2026-10-15 18:18:03|   INFO|FunctionDownloader.cpp:146] FunctionDownloader::Start funcid=qq_clean,m_eStatus=0
+[13756|2026-10-15 18:18:03|   INFO|FunctionDownloader.cpp:456] FunctionDownloader::NotifyExternalListeners , m_strFunctionId=qq_clean, nErrorCode=0, szErrorMsg=not need download by full flag file exist
+[13756|2026-10-15 18:18:03|   INFO|FunctionDownloader.cpp:146] FunctionDownloader::Start funcid=filedestroy,m_eStatus=0
+[13756|2026-10-15 18:18:03|   INFO|FunctionDownloader.cpp:456] FunctionDownloader::NotifyExternalListeners , m_strFunctionId=filedestroy, nErrorCode=0, szErrorMsg=not need download by full flag file exist
+[12944|2026-10-15 18:18:03|   INFO|PackageDownloadManager.cpp:117] PackageDownloadManager::IsFuncReadyOk true by fullfile flag id=sysslim
+[12944|2026-10-15 19:23:10|   INFO|DownloadQueue.cpp:69] [DownloadQueue] Uninitialized
+[12944|2026-10-15 19:23:10|   INFO|PackageDownloadManager.cpp:104] PackageDownloadManager uninitializing, refCount=0
+[12944|2026-10-15 19:23:10|   INFO|ProductPackageImpl.cpp:61] ProductPackageImpl::Uninitialize this=08751A80
+[20628|2026-10-15 19:24:00|   INFO|DownloadQueue.cpp:39] [DownloadQueue] Initialized with max concurrency: 3
+[20628|2026-10-15 19:24:00|   INFO|PackageDownloadManager.cpp:85] PackageDownloadManager initialized, installPath=C:\Users\Aimer\AppData\Local\kdiskmgr_sogou\
+[20628|2026-10-15 19:24:00|   INFO|ProductPackageImpl.cpp:47] ProductPackageImpl::Initialize this=087F16D0,nRet=0
+[32864|2026-10-15 19:24:00|   INFO|ConfigManager.cpp:149] [ConfigManager] Successfully read file from 7z memory: subpackinfo.json, size=6001 bytes
+[32864|2026-10-15 19:24:00|   INFO|ConfigManager.cpp:183] [ConfigManager] Config version: 1.0.0
+[32864|2026-10-15 19:24:00|   INFO|ConfigManager.cpp:186] [ConfigManager] Build time: 2026-06-09 14:22:21
+[32864|2026-10-15 19:24:00|   INFO|ConfigManager.cpp:64] [ConfigManager] Initialized successfully, functions=9, subpacks=10
+[32864|2026-10-15 19:24:00|   INFO|PackageDownloadManager.cpp:82] [PackageDownloadManager] Success to initialize ConfigManager
+[20628|2026-10-15 19:24:00|   INFO|PackageDownloadManager.cpp:192] PackageDownloadManager::DownloadFunction Start finished
+[32864|2026-10-15 19:24:00|   INFO|FunctionDownloader.cpp:146] FunctionDownloader::Start funcid=sysslim,m_eStatus=0
+[20628|2026-10-15 19:24:00|   INFO|ProductPackageImpl.cpp:208] ProductPackageImpl::DownloadFunction , szFunctionId =sysslim, nRet=0
+[20628|2026-10-15 19:24:00|   INFO|PackageDownloadManager.cpp:192] PackageDownloadManager::DownloadFunction Start finished
+[20628|2026-10-15 19:24:00|   INFO|ProductPackageImpl.cpp:208] ProductPackageImpl::DownloadFunction , szFunctionId =defrag, nRet=0
+[20628|2026-10-15 19:24:00|   INFO|PackageDownloadManager.cpp:192] PackageDownloadManager::DownloadFunction Start finished
+[20628|2026-10-15 19:24:00|   INFO|ProductPackageImpl.cpp:208] ProductPackageImpl::DownloadFunction , szFunctionId =privacy, nRet=0
+[20628|2026-10-15 19:24:00|   INFO|PackageDownloadManager.cpp:192] PackageDownloadManager::DownloadFunction Start finished
+[20628|2026-10-15 19:24:00|   INFO|ProductPackageImpl.cpp:208] ProductPackageImpl::DownloadFunction , szFunctionId =largefile, nRet=0
+[20628|2026-10-15 19:24:00|   INFO|PackageDownloadManager.cpp:192] PackageDownloadManager::DownloadFunction Start finished
+[20628|2026-10-15 19:24:00|   INFO|ProductPackageImpl.cpp:208] ProductPackageImpl::DownloadFunction , szFunctionId =dupfile, nRet=0
+[20628|2026-10-15 19:24:00|   INFO|PackageDownloadManager.cpp:192] PackageDownloadManager::DownloadFunction Start finished
+[20628|2026-10-15 19:24:00|   INFO|ProductPackageImpl.cpp:208] ProductPackageImpl::DownloadFunction , szFunctionId =wechat_clean, nRet=0
+[20628|2026-10-15 19:24:00|   INFO|PackageDownloadManager.cpp:192] PackageDownloadManager::DownloadFunction Start finished
+[20628|2026-10-15 19:24:00|   INFO|ProductPackageImpl.cpp:208] ProductPackageImpl::DownloadFunction , szFunctionId =qq_clean, nRet=0
+[20628|2026-10-15 19:24:00|   INFO|PackageDownloadManager.cpp:192] PackageDownloadManager::DownloadFunction Start finished
+[20628|2026-10-15 19:24:00|   INFO|ProductPackageImpl.cpp:208] ProductPackageImpl::DownloadFunction , szFunctionId =filedestroy, nRet=0
+[32864|2026-10-15 19:24:00|   INFO|FunctionDownloader.cpp:456] FunctionDownloader::NotifyExternalListeners , m_strFunctionId=sysslim, nErrorCode=0, szErrorMsg=not need download by full flag file exist
+[32864|2026-10-15 19:24:00|   INFO|FunctionDownloader.cpp:146] FunctionDownloader::Start funcid=defrag,m_eStatus=0
+[32864|2026-10-15 19:24:00|   INFO|FunctionDownloader.cpp:456] FunctionDownloader::NotifyExternalListeners , m_strFunctionId=defrag, nErrorCode=0, szErrorMsg=not need download by full flag file exist
+[32864|2026-10-15 19:24:00|   INFO|FunctionDownloader.cpp:146] FunctionDownloader::Start funcid=privacy,m_eStatus=0
+[32864|2026-10-15 19:24:00|   INFO|FunctionDownloader.cpp:456] FunctionDownloader::NotifyExternalListeners , m_strFunctionId=privacy, nErrorCode=0, szErrorMsg=not need download by full flag file exist
+[32864|2026-10-15 19:24:00|   INFO|FunctionDownloader.cpp:146] FunctionDownloader::Start funcid=largefile,m_eStatus=0
+[32864|2026-10-15 19:24:00|   INFO|FunctionDownloader.cpp:456] FunctionDownloader::NotifyExternalListeners , m_strFunctionId=largefile, nErrorCode=0, szErrorMsg=not need download by full flag file exist
+[32864|2026-10-15 19:24:00|   INFO|FunctionDownloader.cpp:146] FunctionDownloader::Start funcid=dupfile,m_eStatus=0
+[32864|2026-10-15 19:24:00|   INFO|FunctionDownloader.cpp:456] FunctionDownloader::NotifyExternalListeners , m_strFunctionId=dupfile, nErrorCode=0, szErrorMsg=not need download by full flag file exist
+[32864|2026-10-15 19:24:00|   INFO|FunctionDownloader.cpp:146] FunctionDownloader::Start funcid=wechat_clean,m_eStatus=0
+[32864|2026-10-15 19:24:00|   INFO|FunctionDownloader.cpp:456] FunctionDownloader::NotifyExternalListeners , m_strFunctionId=wechat_clean, nErrorCode=0, szErrorMsg=not need download by full flag file exist
+[32864|2026-10-15 19:24:00|   INFO|FunctionDownloader.cpp:146] FunctionDownloader::Start funcid=qq_clean,m_eStatus=0
+[32864|2026-10-15 19:24:00|   INFO|FunctionDownloader.cpp:456] FunctionDownloader::NotifyExternalListeners , m_strFunctionId=qq_clean, nErrorCode=0, szErrorMsg=not need download by full flag file exist
+[32864|2026-10-15 19:24:00|   INFO|FunctionDownloader.cpp:146] FunctionDownloader::Start funcid=filedestroy,m_eStatus=0
+[32864|2026-10-15 19:24:00|   INFO|FunctionDownloader.cpp:456] FunctionDownloader::NotifyExternalListeners , m_strFunctionId=filedestroy, nErrorCode=0, szErrorMsg=not need download by full flag file exist
+[20628|2026-10-15 19:24:00|   INFO|PackageDownloadManager.cpp:117] PackageDownloadManager::IsFuncReadyOk true by fullfile flag id=sysslim
+[20628|2026-10-15 23:12:35|   INFO|DownloadQueue.cpp:69] [DownloadQueue] Uninitialized
+[20628|2026-10-15 23:12:35|   INFO|PackageDownloadManager.cpp:104] PackageDownloadManager uninitializing, refCount=0
+[20628|2026-10-15 23:12:35|   INFO|ProductPackageImpl.cpp:61] ProductPackageImpl::Uninitialize this=087F16D0

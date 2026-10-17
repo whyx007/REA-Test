@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<SelectAllRisk>
+	<Risk itemid="70000429" categoryid="11" title="&lt;text class=&quot;warn_black_bold&quot;&gt;确定360游戏大厅下载的文件吗？&lt;/text&gt;&lt;break/&gt;&lt;text class=&quot;warn_black&quot;&gt;可能导致&lt;/text&gt;&lt;text class=&quot;warn_red&quot;&gt;下载的安装包丢失，&lt;/text&gt;&lt;text class=&quot;warn_black&quot;&gt;请谨慎操作！&lt;/text&gt;" desc="将删除360游戏大厅下载的文件" innerdesc= "将删除360游戏大厅下载的文件"/>
+	<Risk itemid="70005743" categoryid="11" title="&lt;text class=&quot;warn_black_bold&quot;&gt;确定腾讯手游助手下载的文件吗？&lt;/text&gt;&lt;break/&gt;&lt;text class=&quot;warn_black&quot;&gt;可能导致&lt;/text&gt;&lt;text class=&quot;warn_red&quot;&gt;下载的文件丢失，&lt;/text&gt;&lt;text class=&quot;warn_black&quot;&gt;请谨慎操作！&lt;/text&gt;" desc="将删除腾讯手游助手下载的文件" innerdesc= "将删除腾讯手游助手下载文件"/>
+	<Risk itemid="60044347" categoryid="11" title="&lt;text class=&quot;warn_black_bold&quot;&gt;确定删除英雄联盟的时刻视频文件吗？&lt;/text&gt;&lt;break/&gt;&lt;text class=&quot;warn_black&quot;&gt;可能导致&lt;/text&gt;&lt;text class=&quot;warn_red&quot;&gt;更新的缓存、视频文件丢失，&lt;/text&gt;&lt;text class=&quot;warn_black&quot;&gt;请谨慎操作！&lt;/text&gt;" delaybtn="1" desc="将删除英雄联盟的缓存和视频" innerdesc= "将删除英雄联盟的缓存和视频"/>
+	<Risk itemid="60039769" categoryid="11" title="&lt;text class=&quot;warn_black_bold&quot;&gt;确定百度浏览器下载的文件吗？&lt;/text&gt;&lt;break/&gt;&lt;text class=&quot;warn_black&quot;&gt;可能导致&lt;/text&gt;&lt;text class=&quot;warn_red&quot;&gt;下载文件、更新缓存丢失，&lt;/text&gt;&lt;text class=&quot;warn_black&quot;&gt;请谨慎操作！&lt;/text&gt;" desc="将删除百度浏览器下载的文件" innerdesc= "将删除百度浏览器下载文件"/>
+	<Risk itemid="60000234" categoryid="11" title="&lt;text class=&quot;warn_black_bold&quot;&gt;确定删除驱动精灵下载的文件吗？&lt;/text&gt;&lt;break/&gt;&lt;text class=&quot;warn_black&quot;&gt;可能导致&lt;/text&gt;&lt;text class=&quot;warn_red&quot;&gt;下载安装包、驱动安装文件丢失，&lt;/text&gt;&lt;text class=&quot;warn_black&quot;&gt;请谨慎操作！&lt;/text&gt;" desc="将删除驱动精灵下载的文件" innerdesc= "将删除驱动精灵下载文件"/>
+	<Risk itemid="70005763" categoryid="11" title="&lt;text class=&quot;warn_black_bold&quot;&gt;确定删除百度软件管理下载的文件吗？&lt;/text&gt;&lt;break/&gt;&lt;text class=&quot;warn_black&quot;&gt;可能导致&lt;/text&gt;&lt;text class=&quot;warn_red&quot;&gt;下载的安装包丢失，&lt;/text&gt;&lt;text class=&quot;warn_black&quot;&gt;请谨慎操作！&lt;/text&gt;" desc="将删除百度软件管理下载的文件" innerdesc= "将删除百度软件管理下载文件"/>
+	<Risk itemid="61000106" categoryid="11" title="&lt;text class=&quot;warn_black_bold&quot;&gt;确定删除UC浏览器下载的文件吗？&lt;/text&gt;&lt;break/&gt;&lt;text class=&quot;warn_black&quot;&gt;可能导致&lt;/text&gt;&lt;text class=&quot;warn_red&quot;&gt;下载的文件丢失，&lt;/text&gt;&lt;text class=&quot;warn_black&quot;&gt;请谨慎操作！&lt;/text&gt;" desc="将删除UC浏览器下载的文件、缓存" innerdesc= "将删除UC浏览器下载文件、缓存"/>
+	<Risk itemid="60000224" categoryid="11" title="&lt;text class=&quot;warn_black_bold&quot;&gt;确定删除鲁大师下载的文件吗？&lt;/text&gt;&lt;break/&gt;&lt;text class=&quot;warn_black&quot;&gt;可能导致&lt;/text&gt;&lt;text class=&quot;warn_red&quot;&gt;下载(7天前)的安装包丢失，&lt;/text&gt;&lt;text class=&quot;warn_black&quot;&gt;请谨慎操作！&lt;/text&gt;" desc="将删除鲁大师下载的文件" innerdesc= "将删除鲁大师下载文件"/>
+	<Risk itemid="70005042" categoryid="11" title="&lt;text class=&quot;warn_black_bold&quot;&gt;确定删除微信接收的文件吗？&lt;/text&gt;&lt;break/&gt;&lt;text class=&quot;warn_black&quot;&gt;可能导致&lt;/text&gt;&lt;text class=&quot;warn_red&quot;&gt;接收的文件、缓存图片丢失，&lt;/text&gt;&lt;text class=&quot;warn_black&quot;&gt;请谨慎操作！&lt;/text&gt;" delaybtn="1" desc="将删除微信接收的文件、缓存" innerdesc= "将删除微信接收的文件、缓存"/>
+	<Risk itemid="61000094" categoryid="11" title="&lt;text class=&quot;warn_black_bold&quot;&gt;确定删除flash缓存吗？&lt;/text&gt;&lt;break/&gt;&lt;text class=&quot;warn_black&quot;&gt;可能导致&lt;/text&gt;&lt;text class=&quot;warn_red&quot;&gt;保存的游戏进度丢失，&lt;/text&gt;&lt;text class=&quot;warn_black&quot;&gt;请谨慎操作！&lt;/text&gt;" delaybtn="1" desc="删除flash缓存后可能导致保存的游戏进度丢失" innerdesc= "删除flash缓存后可能导致保存的游戏进度丢失"/>
+	<Risk itemid="60002780" categoryid="11" title="将删除金山毒霸的更新缓存、下载的软件安装包" desc="将删除金山毒霸的更新缓存、下载的软件安装包" />
+	<Risk itemid="61000010" categoryid="11" title="将删除金山手机助手应用的更新缓存、下载的文件" desc="将删除金山手机助手应用的更新缓存、下载的文件" />
+	<Risk itemid="60000116" categoryid="11" title="&lt;text class=&quot;warn_black_bold&quot;&gt;确定删除QQ的接收文件和聊天记录吗？&lt;/text&gt;&lt;break/&gt;&lt;text class=&quot;warn_black&quot;&gt;可能导致&lt;/text&gt;&lt;text class=&quot;warn_red&quot;&gt;接收的文件、图片、表情、聊天记录丢失，&lt;/text&gt;&lt;text class=&quot;warn_black&quot;&gt;请谨慎操作！&lt;/text&gt;" delaybtn="1" desc="将删除QQ聊天接收到的图片、文件和聊天记录" innerdesc= "将删除QQ聊天接收到的图片、文件和聊天记录"/>
+	<Risk itemid="60040408" categoryid="11" title="&lt;text class=&quot;warn_black_bold&quot;&gt;确定删除QQ音乐下载的文件吗？&lt;/text&gt;&lt;break/&gt;&lt;text class=&quot;warn_black&quot;&gt;可能导致&lt;/text&gt;&lt;text class=&quot;warn_red&quot;&gt;下载的歌曲、歌曲缓存丢失，&lt;/text&gt;&lt;text class=&quot;warn_black&quot;&gt;请谨慎操作！&lt;/text&gt;" delaybtn="1" desc="将删除QQ音乐的歌曲缓存和下载的MP3文件" innerdesc= "将删除QQ音乐的歌曲缓存和下载的MP3文件"/>
+	<Risk itemid="60001814" categoryid="11" title="&lt;text class=&quot;warn_black_bold&quot;&gt;确定删除迅雷下载的文件吗？&lt;/text&gt;&lt;break/&gt;&lt;text class=&quot;warn_black&quot;&gt;可能导致&lt;/text&gt;&lt;text class=&quot;warn_red&quot;&gt;下载的视频、音乐等文件丢失，&lt;/text&gt;&lt;text class=&quot;warn_black&quot;&gt;请谨慎操作！&lt;/text&gt;" delaybtn="1" desc="将删除迅雷下载的文件、已解压的压缩包" innerdesc= "将删除迅雷下载的文件、已解压的压缩包"/>
+	<Risk itemid="60002917" categoryid="11" title="&lt;text class=&quot;warn_black_bold&quot;&gt;确定删除腾讯管家下载的文件吗？&lt;/text&gt;&lt;break/&gt;&lt;text class=&quot;warn_black&quot;&gt;可能导致&lt;/text&gt;&lt;text class=&quot;warn_red&quot;&gt;下载的安装包等文件丢失，&lt;/text&gt;&lt;text class=&quot;warn_black&quot;&gt;请谨慎操作！&lt;/text&gt;" desc="将删除腾讯管家下载的文件" innerdesc= "将删除腾讯管家下载的文件"/>
+	<Risk itemid="61000093" categoryid="11" title="将删除系统预读文件和补丁备份、下载目录下的文件" desc="将删除系统预读文件和补丁备份、下载目录下的文件" />
+	<Risk itemid="60000002" categoryid="11" title="&lt;text class=&quot;warn_black_bold&quot;&gt;确定删酷狗音乐下载的文件吗？&lt;/text&gt;&lt;break/&gt;&lt;text class=&quot;warn_black&quot;&gt;可能导致&lt;/text&gt;&lt;text class=&quot;warn_red&quot;&gt;酷狗音乐下载的歌曲、缓存丢失，&lt;/text&gt;&lt;text class=&quot;warn_black&quot;&gt;请谨慎操作！&lt;/text&gt;" delaybtn="1" desc="将删除酷狗音乐的歌曲和歌词缓存、下载的mp3文件" innerdesc= "将删除酷狗音乐的歌曲和歌词缓存、下载的mp3文件"/>
+	<Risk itemid="60000030" categoryid="11" title="&lt;text class=&quot;warn_black_bold&quot;&gt;确定删除暴风影音下载的文件吗？&lt;/text&gt;&lt;break/&gt;&lt;text class=&quot;warn_black&quot;&gt;可能导致&lt;/text&gt;&lt;text class=&quot;warn_red&quot;&gt;下载的视频、视频缓存丢失，&lt;/text&gt;&lt;text class=&quot;warn_black&quot;&gt;请谨慎操作！&lt;/text&gt;" delaybtn="1" desc="将删除暴风影音的视频缓存、下载的视频文件" innerdesc= "将删除暴风影音的视频缓存、下载的视频文件"/>
+	<Risk itemid="60000118" categoryid="11" title="&lt;text class=&quot;warn_black_bold&quot;&gt;确定删除WPS旧版文件和备份记录吗？&lt;/text&gt;&lt;break/&gt;&lt;text class=&quot;warn_black&quot;&gt;可能导致&lt;/text&gt;&lt;text class=&quot;warn_red&quot;&gt;WPS旧版文件、备份记录丢失，&lt;/text&gt;&lt;text class=&quot;warn_black&quot;&gt;请谨慎操作！&lt;/text&gt;" delaybtn="1" desc="将删除WPS旧版的残留文件、自动备份的记录" innerdesc= "将删除WPS旧版的残留文件、备份的记录"/>
+	<Risk itemid="60000234" categoryid="11" title="将删除驱动精灵下载的驱动和补丁包、安装包、备份文件" desc="将删除驱动精灵下载的驱动和补丁包、安装包、备份文件" />
+	<Risk itemid="60040407" categoryid="11" title="&lt;text class=&quot;warn_black_bold&quot;&gt;确定删除腾讯视频下载的视频/缓存吗？&lt;/text&gt;&lt;break/&gt;&lt;text class=&quot;warn_black&quot;&gt;可能导致&lt;/text&gt;&lt;text class=&quot;warn_red&quot;&gt;下载的视频/缓存丢失，&lt;/text&gt;&lt;text class=&quot;warn_black&quot;&gt;请谨慎操作！&lt;/text&gt;" delaybtn="1" desc="将删除腾讯视频下载的视频、缓存" innerdesc= "将删除腾讯视频下载的视频、缓存"/>
+	<Risk itemid="60038242" categoryid="11" title="&lt;text class=&quot;warn_black_bold&quot;&gt;确定删除PPTV下载的文件和截图吗？&lt;/text&gt;&lt;break/&gt;&lt;text class=&quot;warn_black&quot;&gt;可能导致&lt;/text&gt;&lt;text class=&quot;warn_red&quot;&gt;下载的视频、截图、视频缓存丢失，&lt;/text&gt;&lt;text class=&quot;warn_black&quot;&gt;请谨慎操作！&lt;/text&gt;" delaybtn="1" desc="将删除PPTV的视频缓存、下载的文件、截图" innerdesc= "将删除PPTV的视频缓存、下载的文件、截图"/>
+	<Risk itemid="61000070" categoryid="11" title="&lt;text class=&quot;warn_black_bold&quot;&gt;确定删除爱奇艺下载的文件吗？&lt;/text&gt;&lt;break/&gt;&lt;text class=&quot;warn_black&quot;&gt;可能导致&lt;/text&gt;&lt;text class=&quot;warn_red&quot;&gt;下载的视频、缓存丢失，&lt;/text&gt;&lt;text class=&quot;warn_black&quot;&gt;请谨慎操作！&lt;/text&gt;" delaybtn="1" desc="将删除爱奇艺下载的文件、缓存" innerdesc= "将删除爱奇艺下载的文件、缓存"/>
+	<Risk itemid="70003220" categoryid="11" title="&lt;text class=&quot;warn_black_bold&quot;&gt;确定删除迅雷影音下载的文件吗？&lt;/text&gt;&lt;break/&gt;&lt;text class=&quot;warn_black&quot;&gt;可能导致&lt;/text&gt;&lt;text class=&quot;warn_red&quot;&gt;下载的视频、视频缓存丢失，&lt;/text&gt;&lt;text class=&quot;warn_black&quot;&gt;请谨慎操作！&lt;/text&gt;" delaybtn="1" desc="将删除迅雷影音的视频、缓存" innerdesc= "将删除迅雷影音的视频、缓存"/>
+	<Risk itemid="61000074" categoryid="11" title="&lt;text class=&quot;warn_black_bold&quot;&gt;确定删除酷我音乐下载的文件吗？&lt;/text&gt;&lt;break/&gt;&lt;text class=&quot;warn_black&quot;&gt;可能导致&lt;/text&gt;&lt;text class=&quot;warn_red&quot;&gt;下载的歌曲、缓存丢失，&lt;/text&gt;&lt;text class=&quot;warn_black&quot;&gt;请谨慎操作！&lt;/text&gt;" delaybtn="1" desc="将删除酷我音乐的歌曲缓存、下载的mp3文件" innerdesc= "将删除酷我音乐的歌曲缓存、下载的mp3文件"/>
+	<Risk itemid="70003245" categoryid="11" title="将删除腾讯极速下载器下载的文件" desc="将删除腾讯极速下载器下载的文件" />
+	<Risk itemid="61000039" categoryid="11" title="&lt;text class=&quot;warn_black_bold&quot;&gt;确定删除MS Office的缓存文件吗？&lt;/text&gt;&lt;break/&gt;&lt;text class=&quot;warn_black&quot;&gt;可能导致&lt;/text&gt;&lt;text class=&quot;warn_red&quot;&gt;MS Office的使用记录、缓存丢失，&lt;/text&gt;&lt;text class=&quot;warn_black&quot;&gt;请谨慎操作！&lt;/text&gt;" delaybtn="1" desc="将删除MS Office缓存文件" innerdesc= "将删除MS Office缓存文件"/>
+	<Risk itemid="60046865" categoryid="11" title="&lt;text class=&quot;warn_black_bold&quot;&gt;确定删除优酷视频下载的文件吗？&lt;/text&gt;&lt;break/&gt;&lt;text class=&quot;warn_black&quot;&gt;可能导致&lt;/text&gt;&lt;text class=&quot;warn_red&quot;&gt;下载的视频、缓存丢失，&lt;/text&gt;&lt;text class=&quot;warn_black&quot;&gt;请谨慎操作！&lt;/text&gt;" delaybtn="1" desc="将删除优酷视频下载的文件、缓存" innerdesc= "将删除优酷视频下载的文件、缓存"/>
+	<Risk itemid="61000056" categoryid="11" title="&lt;text class=&quot;warn_black_bold&quot;&gt;确定删除QQ浏览器下载的文件吗？&lt;/text&gt;&lt;break/&gt;&lt;text class=&quot;warn_black&quot;&gt;可能导致&lt;/text&gt;&lt;text class=&quot;warn_red&quot;&gt;下载的安装包、图片等丢失，&lt;/text&gt;&lt;text class=&quot;warn_black&quot;&gt;请谨慎操作！&lt;/text&gt;" desc="将删除QQ浏览器下载的文件" innerdesc= "将删除QQ浏览器下载的文件"/>
+	<Risk itemid="61000069" categoryid="11" title="将删除搜狐视频缓存的文件、下载的文件" desc="将删除搜狐视频缓存的文件、下载的文件" />
+	<Risk itemid="60039558" categoryid="11" title="将删除YY接收到的文件、录音、旧版无用文件" desc="将删除YY接收到的文件、录音、旧版无用文件" />
+	<Risk itemid="60037746" categoryid="11" title="将删除金山卫士下载的软件安装包" desc="将删除金山卫士下载的软件安装包" />
+	<Risk itemid="60047501" categoryid="11" title="&lt;text class=&quot;warn_black_bold&quot;&gt;确定删除猎豹浏览器下载的文件吗？&lt;/text&gt;&lt;break/&gt;&lt;text class=&quot;warn_black&quot;&gt;可能导致&lt;/text&gt;&lt;text class=&quot;warn_red&quot;&gt;下载的安装包、图片等丢失，&lt;/text&gt;&lt;text class=&quot;warn_black&quot;&gt;请谨慎操作！&lt;/text&gt;" desc="将删除猎豹浏览器下载的文件" innerdesc= "将删除猎豹浏览器下载的文件"/>
+	<Risk itemid="60045292" categoryid="11" title="将删除风行的缓存文件、下载的文件、旧版残留文件" desc="将删除风行的缓存文件、下载的文件、旧版残留文件" />
+	<Risk itemid="60000057" categoryid="11" title="&lt;text class=&quot;warn_black_bold&quot;&gt;确定删除QQ旋风下载的文件吗？&lt;/text&gt;&lt;break/&gt;&lt;text class=&quot;warn_black&quot;&gt;可能导致&lt;/text&gt;&lt;text class=&quot;warn_red&quot;&gt;下载的文件、压缩包等丢失，&lt;/text&gt;&lt;text class=&quot;warn_black&quot;&gt;请谨慎操作！&lt;/text&gt;" desc="将删除QQ旋风下载的文件、已解压的压缩包" innerdesc= "将删除QQ旋风下载的文件、已解压的压缩包"/>
+	<Risk itemid="70003181" categoryid="11" title="将删除吉吉影音的视频缓存、下载的文件" desc="将删除吉吉影音的视频缓存、下载的文件" />
+	<Risk itemid="61000075" categoryid="11" title="&lt;text class=&quot;warn_black_bold&quot;&gt;确定删除百度影音的缓存文件吗？&lt;/text&gt;&lt;break/&gt;&lt;text class=&quot;warn_black&quot;&gt;可能导致&lt;/text&gt;&lt;text class=&quot;warn_red&quot;&gt;下载的视频、缓存丢失，&lt;/text&gt;&lt;text class=&quot;warn_black&quot;&gt;请谨慎操作！&lt;/text&gt;" delaybtn="1" desc="将删除百度影音的视频缓存，旧版本残留文件" innerdesc= "将删除百度影音的视频缓存，旧版本残留文件"/>
+	<Risk itemid="60000047" categoryid="11" title="&lt;text class=&quot;warn_black_bold&quot;&gt;确定删除搜狗浏览器下载的文件吗？&lt;/text&gt;&lt;break/&gt;&lt;text class=&quot;warn_black&quot;&gt;可能导致&lt;/text&gt;&lt;text class=&quot;warn_red&quot;&gt;下载的安装包、图片等丢失，&lt;/text&gt;&lt;text class=&quot;warn_black&quot;&gt;请谨慎操作！&lt;/text&gt;" desc="将删除搜狗浏览器下载的文件" innerdesc= "将删除搜狗浏览器下载文件"/>
+	<Risk itemid="61000081" categoryid="11" title="将删除iTunes应用缓存、升级缓存文件" desc="将删除iTunes应用缓存、升级缓存文件" />
+	<Risk itemid="61000061" categoryid="11" title="&lt;text class=&quot;warn_black_bold&quot;&gt;确定删除Chrome浏览器下载的文件吗？&lt;/text&gt;&lt;break/&gt;&lt;text class=&quot;warn_black&quot;&gt;可能导致&lt;/text&gt;&lt;text class=&quot;warn_red&quot;&gt;下载的安装包、图片等丢失，&lt;/text&gt;&lt;text class=&quot;warn_black&quot;&gt;请谨慎操作！&lt;/text&gt;" desc="将删除Chrome浏览器下载的文件、残留文件" innerdesc= "将删除Chrome浏览器下载的文件、残留文件"/>
+	<Risk itemid="61000084" categoryid="11" title="将删除千千静听下载的音乐和歌曲缓存" desc="将删除千千静听下载的音乐和歌曲缓存" />
+	<Risk itemid="60001429" categoryid="11" title="将删除Media Player的视频缓存" desc="将删除Media Player的视频缓存" />
+	<Risk itemid="60038097" categoryid="11" title="将删除百度输入法的旧版残留文件" desc="将删除百度输入法的旧版残留文件" />
+	<Risk itemid="61000098" categoryid="11" title="将删除Foxmail中的图片缓存" desc="将删除Foxmail中的图片缓存" />
+	<Risk itemid="60000409" categoryid="11" title="将删除360软件管家下载的软件安装包" desc="将删除360软件管家下载的软件安装包" />
+	<Risk itemid="60000252" categoryid="11" title="&lt;text class=&quot;warn_black_bold&quot;&gt;确定删除驱动人生下载的文件吗？&lt;/text&gt;&lt;break/&gt;&lt;text class=&quot;warn_black&quot;&gt;可能导致&lt;/text&gt;&lt;text class=&quot;warn_red&quot;&gt;下载软件、驱动安装包、备份文件丢失，&lt;/text&gt;&lt;text class=&quot;warn_black&quot;&gt;请谨慎操作！&lt;/text&gt;" desc="将删除驱动人生下载的软件安装包、文件、驱动包" innerdesc= "将删除驱动人生下载的软件安装包、文件、驱动包"/>
+	<Risk itemid="60000200" categoryid="11" title="&lt;text class=&quot;warn_black_bold&quot;&gt;确定删除影音先锋下载的文件吗？&lt;/text&gt;&lt;break/&gt;&lt;text class=&quot;warn_black&quot;&gt;可能导致&lt;/text&gt;&lt;text class=&quot;warn_red&quot;&gt;下载的视频、缓存文件丢失，&lt;/text&gt;&lt;text class=&quot;warn_black&quot;&gt;请谨慎操作！&lt;/text&gt;" delaybtn="1" desc="将删除影音先锋下载的文件和视频缓存" innerdesc= "将删除影音先锋下载的文件和视频缓存"/>
+	<Risk itemid="61000073" categoryid="11" title="&lt;text class=&quot;warn_black_bold&quot;&gt;确定删除百度音乐下载的文件吗？&lt;/text&gt;&lt;break/&gt;&lt;text class=&quot;warn_black&quot;&gt;可能导致&lt;/text&gt;&lt;text class=&quot;warn_red&quot;&gt;下载的音乐、歌曲缓存丢失，&lt;/text&gt;&lt;text class=&quot;warn_black&quot;&gt;请谨慎操作！&lt;/text&gt;" delaybtn="1" desc="将删除百度音乐下载的音乐和歌曲缓存" innerdesc= "将删除百度音乐下载的音乐和歌曲缓存"/>
+	<Risk itemid="60000041" categoryid="11" title="将删除快播的视频缓存" desc="将删除快播的视频缓存" />
+	<Risk itemid="60043559" categoryid="11" title="将删除2345浏览器下载的文件" desc="将删除2345浏览器下载的文件" />
+	<Risk itemid="61000072" categoryid="11" title="将删除酷我K歌下载的音乐和歌曲缓存" desc="将删除酷我K歌下载的音乐和歌曲缓存" />
+	<Risk itemid="70003268" categoryid="11" title="将删除QQ迷你旋风下载的文件和旧版无用文件" desc="将删除QQ迷你旋风下载的文件和旧版无用文件" />
+	<Risk itemid="60048022" categoryid="11" title="&lt;text class=&quot;warn_black_bold&quot;&gt;确定删除腾讯游戏平台下载的文件吗？&lt;/text&gt;&lt;break/&gt;&lt;text class=&quot;warn_black&quot;&gt;可能导致&lt;/text&gt;&lt;text class=&quot;warn_red&quot;&gt;腾讯游戏平台下载的文件丢失，&lt;/text&gt;&lt;text class=&quot;warn_black&quot;&gt;请谨慎操作！&lt;/text&gt;" desc="将删除腾讯游戏平台下载的文件" innerdesc= "将删除腾讯游戏平台下载的文件"/>
+	<Risk itemid="60001771" categoryid="11" title="将删除多米音乐下载的mp3文件和歌曲缓存" desc="将删除多米音乐下载的mp3文件和歌曲缓存" />
+	<Risk itemid="70002721" categoryid="11" title="将删除西瓜影音的视频缓存、下载的文件" desc="将删除西瓜影音的视频缓存、下载的文件" />
+	<Risk itemid="60047758" categoryid="11" title="将删除芒果TV的视频缓存、下载的视频" desc="将删除芒果TV的视频缓存、下载的视频" />
+	<Risk itemid="61000066" categoryid="11" title="将删除土豆视频的缓存和下载的文件" desc="将删除土豆视频的缓存和下载的文件" />
+	<Risk itemid="61000059" categoryid="11" title="&lt;text class=&quot;warn_black_bold&quot;&gt;确定删除360极速浏览器下载的文件吗？&lt;/text&gt;&lt;break/&gt;&lt;text class=&quot;warn_black&quot;&gt;可能导致&lt;/text&gt;&lt;text class=&quot;warn_red&quot;&gt;360极速浏览器下载的文件丢失，&lt;/text&gt;&lt;text class=&quot;warn_black&quot;&gt;请谨慎操作！&lt;/text&gt;" desc="将删除360极速浏览器下载的文件" innerdesc= "将删除360极速浏览器下载的文件"/>
+	<Risk itemid="60000090" categoryid="11" title="将删除皮皮影音下载的文件、视频缓存" desc="将删除皮皮影音下载的文件、视频缓存" />
+	<Risk itemid="70001392" categoryid="11" title="将删除京东咚咚聊天图片和接收到的文件" desc="将删除京东咚咚聊天图片和接收到的文件" />
+	<Risk itemid="60047447" categoryid="11" title="将删除淘宝浏览器旧版本残留文件和下载的文件" desc="将删除淘宝浏览器旧版本残留文件和下载的文件" />
+	<Risk itemid="70000757" categoryid="11" title="&lt;text class=&quot;warn_black_bold&quot;&gt;确定删除千牛的图片和聊天记录吗？&lt;/text&gt;&lt;break/&gt;&lt;text class=&quot;warn_black&quot;&gt;可能导致&lt;/text&gt;&lt;text class=&quot;warn_red&quot;&gt;聊天的照片、记录丢失，&lt;/text&gt;&lt;text class=&quot;warn_black&quot;&gt;请谨慎操作！&lt;/text&gt;" delaybtn="1" desc="将删除千牛聊天图片、聊天记录" innerdesc= "将删除千牛聊天图片、聊天记录"/>
+	<Risk itemid="60047253" categoryid="11" title="删除91助手下载的文件、电子书、音乐、视频缓存" desc="删除91助手下载的文件、电子书、音乐、视频缓存" />
+	<Risk itemid="70001105" categoryid="11" title="将删除XY助手下载的文件" desc="将删除XY助手下载的文件" />
+	<Risk itemid="70003421" categoryid="11" title="将删除Premiere缓存文件、工程临时文件" desc="将删除Premiere缓存文件、工程临时文件" />
+	<Risk itemid="60001314" categoryid="11" title="将删除Quicktime的歌曲缓存" desc="将删除Quicktime的歌曲缓存" />
+	<Risk itemid="61000065" categoryid="11" title="将删除乐视视频的缓存文件" desc="将删除乐视视频的缓存文件" />
+	<Risk itemid="70001598" categoryid="11" title="将删除百度hao123下载的文件" desc="将删除百度hao123下载的文件" />
+	<Risk itemid="60047045" categoryid="11" title="将删除360云盘下载的文件和日志文件、临时文件" desc="将删除360云盘下载的文件和日志文件、临时文件" />
+	<Risk itemid="60035762" categoryid="11" title="删除iTools下载的固件、音乐、应用、电影、壁纸" desc="删除iTools下载的固件、音乐、应用、电影、壁纸" />
+	<Risk itemid="60000850" categoryid="11" title="&lt;text class=&quot;warn_black_bold&quot;&gt;确定删除网易云音乐下载的文件吗？&lt;/text&gt;&lt;break/&gt;&lt;text class=&quot;warn_black&quot;&gt;可能导致&lt;/text&gt;&lt;text class=&quot;warn_red&quot;&gt;歌曲缓存、歌词文件、下载的音乐丢失，&lt;/text&gt;&lt;text class=&quot;warn_black&quot;&gt;请谨慎操作！&lt;/text&gt;" delaybtn="1" desc="将删除网易云音乐歌曲缓存、歌词和下载的mp3" innerdesc= "将删除网易云音乐歌曲缓存、歌词和下载的mp3"/>
+	<Risk itemid="61000058" categoryid="11" title="&lt;text class=&quot;warn_black_bold&quot;&gt;确定删除360浏览器下载的文件吗？&lt;/text&gt;&lt;break/&gt;&lt;text class=&quot;warn_black&quot;&gt;可能导致&lt;/text&gt;&lt;text class=&quot;warn_red&quot;&gt;360安全浏览器下载的文件丢失，&lt;/text&gt;&lt;text class=&quot;warn_black&quot;&gt;请谨慎操作！&lt;/text&gt;" desc="将删除360浏览器下载的文件" innerdesc= "将删除360浏览器下载的文件"/>
+	<Risk itemid="60002916" categoryid="11" title="将删除Opera下载的文件和旧版本缓存" desc="将删除Opera下载的文件和旧版本缓存" />
+	<Risk itemid="70005044" categoryid="11" title="将删除2345软件管家下载的安装包" desc="将删除2345软件管家下载的安装包" />
+	<Risk itemid="60044742" categoryid="11" title="将删除刷机大师rom下载缓存和备份文件" desc="将删除刷机大师rom下载缓存和备份文件" />
+	<Risk itemid="60048050" categoryid="11" title="将删除百度杀毒的旧版本缓存" desc="将删除百度杀毒的旧版本缓存" />
+	<Risk itemid="70001297" categoryid="11" title="&lt;text class=&quot;warn_black_bold&quot;&gt;确定删除2345智能浏览器下载的文件吗？&lt;/text&gt;&lt;break/&gt;&lt;text class=&quot;warn_black&quot;&gt;可能导致&lt;/text&gt;&lt;text class=&quot;warn_red&quot;&gt;下载的安装包、图片等丢失，&lt;/text&gt;&lt;text class=&quot;warn_black&quot;&gt;请谨慎操作！&lt;/text&gt;" desc="将删除2345智能浏览器下载的文件" innerdesc= "将删除2345智能浏览器下载的文件"/>
+	<Risk itemid="60001467" categoryid="11" title="确定删除豌豆荚下载的文件吗？" desc="将删除豌豆荚下载的文件和电子书、音乐、视频缓存" />
+	<Risk itemid="60045166" categoryid="11" title="&lt;text class=&quot;warn_black_bold&quot;&gt;确定删除应用宝的缓存文件吗？&lt;/text&gt;&lt;break/&gt;&lt;text class=&quot;warn_black&quot;&gt;可能导致&lt;/text&gt;&lt;text class=&quot;warn_red&quot;&gt;音乐、电子书等缓存文件丢失，&lt;/text&gt;&lt;text class=&quot;warn_black&quot;&gt;请谨慎操作！&lt;/text&gt;" desc="将删除应用宝的电子书缓存、音乐缓存" innerdesc= "将删除应用宝的电子书缓存、音乐缓存"/>
+	<Risk itemid="60001299" categoryid="11" title="将删除网易CC缓存的图片文件" desc="将删除网易CC缓存的图片文件" />
+	<Risk itemid="60000029" categoryid="11" title="将删除世界之窗下载的文件和旧版本残留文件" desc="将删除世界之窗下载的文件和旧版本残留文件" />
+	<Risk itemid="70001091" categoryid="11" title="将删除ican3编辑、合并、下载、转换视频缓存" desc="将删除ican3编辑、合并、下载、转换视频缓存" />
+	<Risk itemid="60042313" categoryid="11" title="将删除刷机精灵下载的文件和rom下载缓存" desc="将删除刷机精灵下载的文件和rom下载缓存" />
+	<Risk itemid="60001630" categoryid="11" title="将删除有道词典旧版本残留文件" desc="将删除有道词典旧版本残留文件" />
+	<Risk itemid="70001922" categoryid="11" title="删除快玩浏览器下载的文件、压缩包、旧版本缓存" desc="删除快玩浏览器下载的文件、压缩包、旧版本缓存" />
+	<Risk itemid="60047914" categoryid="11" title="将删除爱思助手固件下载缓存" desc="将删除爱思助手固件下载缓存" />
+	<Risk itemid="63016490" categoryid="11" title="将删除快用助手下载的文件" desc="将删除快用助手下载的文件" />
+	<Risk itemid="60035763" categoryid="11" title="将删除同步助手下载的文件和电影、音乐缓存" desc="将删除同步助手下载的文件和电影、音乐缓存" />
+	<Risk itemid="60040548" categoryid="11" title="将删除金山重装高手下载的软件和驱动安装包" desc="将删除金山重装高手下载的软件和驱动安装包" />
+	<Risk itemid="61000099" categoryid="11" title="将删除百度卫士下载的文件和旧版本缓存" desc="将删除百度卫士下载的文件和旧版本缓存" />
+	<Risk itemid="61000100" categoryid="11" title="将删除百度影音浏览器下载的文件" desc="将删除百度影音浏览器下载的文件" />
+	<Risk itemid="61000004" categoryid="11" title="将删除UUSEE的视频缓存" desc="将删除UUSEE的视频缓存" />
+	<Risk itemid="60048004" categoryid="11" title="将删除天天动听的mp3歌曲缓存" desc="将删除天天动听的mp3歌曲缓存" />
+	<Risk itemid="61000077" categoryid="11" title="将删除迅播播放器的视频缓存" desc="将删除迅播播放器的视频缓存" />
+	<Risk itemid="60047619" categoryid="11" title="将删除米聊的图片缓存" desc="将删除米聊的图片缓存" />
+	<Risk itemid="61000109" categoryid="11" title="将删除音悦台的视频缓存" desc="将删除音悦台的视频缓存" />
+	<Risk itemid="61000011" categoryid="11" title="将删除搜狗助手下载的文件" desc="将删除搜狗助手下载的文件" />
+	<Risk itemid="61000009" categoryid="11" title="&lt;text class=&quot;warn_black_bold&quot;&gt;确定删除360手机助手下载的文件吗？&lt;/text&gt;&lt;break/&gt;&lt;text class=&quot;warn_black&quot;&gt;可能导致&lt;/text&gt;&lt;text class=&quot;warn_red&quot;&gt;视频、电子书、音乐缓存文件丢失，&lt;/text&gt;&lt;text class=&quot;warn_black&quot;&gt;请谨慎操作！&lt;/text&gt;" desc="删除360手机助手的电子书、音乐、视频缓存" innerdesc= "删除360手机助手的电子书、音乐、视频缓存"/>
+	<Risk itemid="60046533" categoryid="11" title="&lt;text class=&quot;warn_black_bold&quot;&gt;确定删除QQ影音的缓存文件吗？&lt;/text&gt;&lt;break/&gt;&lt;text class=&quot;warn_black&quot;&gt;可能导致&lt;/text&gt;&lt;text class=&quot;warn_red&quot;&gt;视频缓存文件丢失，&lt;/text&gt;&lt;text class=&quot;warn_black&quot;&gt;请谨慎操作！&lt;/text&gt;" delaybtn="1" desc="将删除QQ影音的视频缓存" innerdesc= "将删除QQ影音的视频缓存"/>
+	<Risk itemid="61000080" categoryid="11" title="将删除微博桌面接收的文件" desc="将删除微博桌面接收的文件" />
+	<Risk itemid="70000486" categoryid="11" title="删除云手机助手音乐、电影缓存和旧版残留文件" desc="删除云手机助手音乐、电影缓存和旧版残留文件" />
+	<Risk itemid="60001373" categoryid="11" title="将删除360保险箱的游戏安装包" desc="将删除360保险箱的游戏安装包" />
+	<Risk itemid="70001776" categoryid="11" title="将删除QuickBooks的升级文件" desc="将删除QuickBooks的升级文件" />
+	<Risk itemid="61000078" categoryid="11" title="将删除Firefox 的HTML5 缓存" desc="将删除Firefox 的HTML5 缓存" />
+	<Risk itemid="60000168" categoryid="11" title="将删除枫树浏览器下载的文件" desc="将删除枫树浏览器下载的文件" />
+	<Risk itemid="60039584" categoryid="11" title="&lt;text class=&quot;warn_black_bold&quot;&gt;确定删除酷狗游戏盒的截图吗？&lt;/text&gt;&lt;break/&gt;&lt;text class=&quot;warn_black&quot;&gt;可能导致&lt;/text&gt;&lt;text class=&quot;warn_red&quot;&gt;截图文件丢失，&lt;/text&gt;&lt;text class=&quot;warn_black&quot;&gt;请谨慎操作！&lt;/text&gt;" delaybtn="1" desc="将删除酷狗游戏盒的截图" innerdesc= "将删除酷狗游戏盒的截图"/>
+	<Risk itemid="60002837" categoryid="11" title="将删除115极速浏览器下载的文件" desc="将删除115极速浏览器下载的文件" />
+	<Risk itemid="61000093" categoryid="10" title="删除系统预读文件、备份缓存、Download目录下的文件" desc="删除系统预读文件、备份缓存、Download目录下的文件" />
+	<Risk itemid="61000091" categoryid="10" title="将删除Windows Update自动更新数据库文件" desc="将删除Windows Update自动更新数据库文件" />
+	<Risk itemid="70004502" categoryid="10" title="删除后，将无法使用系统自带的壁纸" desc="删除后，将无法使用系统自带的壁纸" innerdesc= "删除后，将无法使用系统自带的壁纸" />
+	<Risk itemid="70004493" categoryid="10" title="删除后，将无法使用系统自带的繁体输入法" desc="删除后，将无法使用系统自带的繁体输入法" innerdesc="删除后，将无法使用系统自带的繁体输入法" />
+	<Risk itemid="70004496" categoryid="10" title="删除后，将无法使用系统自带的微软拼音输入法" desc="删除后，将无法使用系统自带的微软拼音输入法" innerdesc="删除后，将无法使用系统自带的微软拼音输入法" />
+	<Risk itemid="70004491" categoryid="10" title="删除后，将无法使用系统自带的日文输入法" desc="删除后，将无法使用系统自带的日文输入法" innerdesc="删除后，将无法使用系统自带的日文输入法" />
+	<Risk itemid="70004494" categoryid="10" title="删除后，将无法使用系统自带的韩文输入法" desc="删除后，将无法使用系统自带的韩文输入法" innerdesc="删除后，将无法使用系统自带的韩文输入法" />
+	<Risk itemid="70004500" categoryid="10" title="删除后，将无法使用系统自带的示例图片" desc="删除后，将无法使用系统自带的示例图片" innerdesc="删除后，将无法使用系统自带的示例图片"/>
+	<Risk itemid="70004497" categoryid="10" title="删除后，将无法使用系统自带的示例音乐" desc="删除后，将无法使用系统自带的示例音乐" innerdesc="删除后，将无法使用系统自带的示例音乐" />
+	<Risk itemid="70004499" categoryid="10" title="删除后，将无法使用系统自带的示例录像" desc="删除后，将无法使用系统自带的示例录像" innerdesc="删除后，将无法使用系统自带的示例录像" />
+	<Risk itemid="70004501" categoryid="10" title="删除后，将无法使用系统自带的示例视频" desc="删除后，将无法使用系统自带的示例视频" innerdesc="删除后，将无法使用系统自带的示例视频" />
+	<!--Risk itemid="61000092" categoryid="10" title="删除后，将无法使用系统自带的临时文件" desc="删除后，将无法使用系统自带的临时文件" innerdesc="删除后，将无法使用系统自带的临时文件" /-->
+	<Risk itemid="70004822" categoryid="10" title="删除后，将无法使用系统自带的帮助文件" desc="删除后，将无法使用系统自带的帮助文件" innerdesc="删除后，将无法使用系统自带的帮助文件" />
+    <Risk itemid="60048026" categoryid="11" title="&lt;text class=&quot;warn_black_bold&quot;&gt;确定删除百度网盘下载的文件吗？&lt;/text&gt;&lt;break/&gt;&lt;text class=&quot;warn_black&quot;&gt;可能导致&lt;/text&gt;&lt;text class=&quot;warn_red&quot;&gt;电影、音乐、资料等重要文件丢失，&lt;/text&gt;&lt;text class=&quot;warn_black&quot;&gt;请谨慎操作！&lt;/text&gt;" delaybtn="1" desc="将删除百度网盘下载的文件" innerdesc= "将删除百度网盘下载的文件"/>
+	<Risk itemid="61000092" categoryid="10" title="&lt;text class=&quot;warn_black_bold&quot;&gt;确定删除系统录音的临时文件吗？&lt;/text&gt;&lt;break/&gt;&lt;text class=&quot;warn_black&quot;&gt;可能导致&lt;/text&gt;&lt;text class=&quot;warn_red&quot;&gt;系统录音临时文件丢失，&lt;/text&gt;&lt;text class=&quot;warn_black&quot;&gt;请谨慎操作！&lt;/text&gt;" delaybtn="1" desc="将删除系统临时录音的文件" innerdesc= "将删除系统临时录音的文件"/>
+	<Risk itemid="81000001" categoryid="8" title="将删除您选择的软件" desc="将删除您选择的软件" innerdesc="将删除您选择的软件" />
+	<Risk itemid="81000002" categoryid="8" title="将删除您选择的软件" desc="将删除您选择的软件" innerdesc="将删除您选择的软件" />
+	<Risk itemid="81000003" categoryid="8" title="将删除您选择的软件" desc="将删除您选择的软件" innerdesc="将删除您选择的软件" />
+</SelectAllRisk>
