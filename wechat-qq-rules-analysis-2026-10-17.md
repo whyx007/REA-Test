@@ -56,6 +56,17 @@ XML 中明确注释：QQ 空间缓存规则在新版本可能没有内容，但�
 
 历史随附日志 `ksgdiskcleanup.KSubpackDownload.dll.log` 显示：
 
+本轮从本机 `ressrc/chs/subpackinfo.7z` 解出了 `subpackinfo.json`。它确认：
+
+- `wechat_clean` 与 `qq_clean` 完全共享同一组 7 个组件：`pkg_base`、`base`、`miniblink`、`qt`、`pkg_bigfile`、`pkg_base_egn`、`pkg_qq_we_pp`。
+- `pkg_qq_we_pp` 的清单文件名为 `f74ceaf8ffc5170e486acd54315af4b4.7z`，声明大小 `3975516` 字节，CRC `3365548114`；本机已恢复该包并保存为 `pkg_qq_we_pp.7z`。
+- 包内只有 14 个成员：核心 EXE/DLL 和 6 个规则/数据文件；没有 `kwclitesearch_prescan.dat`，也没有独立脚本、路径清单或 XML 路径配置。
+- `kscanengine.dll` 静态字符串显示使用 `SHGetSpecialFolderPathA` 以及 `PathFileExistsW`、`PathAppendW`、`PathFindFileNameW`、`PathRemoveExtensionW`、`PathRemoveFileSpecW` 等 API。这证明路径发现/拼接位于原生扫描引擎，但字符串清单未出现 `APPDATA`、`Tencent`、`WeChat` 等明文路径。
+
+因此，真实路径规则更可能由插件代码中的常量/资源、注册表查询、特殊文件夹 API 和动态字符串拼接生成；目前不能从包文件中恢复出可直接复刻的固定路径表。
+
+包来源与完整性证据：下载地址为 `https://pkg-disk-genius-cdn.sogou-diskmgr.com/public/3rdsg/diskmgr/subpacks/f74ceaf8ffc5170e486acd54315af4b4.7z`；保存包 SHA-256 为 `E2778A519C825169E7D036AB2DC0946ECE6E06A6CBFC8AE4E03E66FBD63ECBD4`。包内容仅作静态证据，未执行其中任何程序。
+
 - 主程序分别请求 `wechat_clean` 和 `qq_clean` 功能；两者各自声明 `subPackCount=7`。
 - 首次缺少组件时下载 `pkg_bigfile` 和 `pkg_qq_we_pp`，后者 URL 形如 `.../subpacks/f74ceaf8ffc5170e486acd54315af4b4.7z`。
 - 下载完成后将子包复制到主目录，并清理临时子包目录；后续启动通过“full flag file exist”跳过再次下载。
