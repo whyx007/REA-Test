@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<slims>
+    <slim>
+        <id>1</id>
+        <gid>0</gid>
+        <autocheck>false</autocheck>
+        <name>日文输入法</name>
+        <description>系统自带的微软日文输入法，如果您不使用此输入法，可以安全删除。</description>
+        <!--<warning>您即将删除系统自带“微软输入法-日文”，删除前请务必确定您不需使用此输入法。</warning>-->
+        <!-- win7 -->
+        <dir os="win7"><![CDATA[%Systemroot%\IME\IMEJP10]]></dir>
+        <dir os="win7"><![CDATA[%Systemroot%\System32\IME\IMEJP10]]></dir>
+        <dir os="win7"><![CDATA[%Systemroot%\SysWOW64\IME\IMEJP10]]></dir>
+        <path os="win7"><![CDATA[%Systemroot%\IME\IMEJP10]]></path>
+        <path os="win7"><![CDATA[%Systemroot%\System32\IME\IMEJP10]]></path>
+        <path os="win7"><![CDATA[%Systemroot%\SysWOW64\IME\IMEJP10]]></path>
+        <!-- win8 -->
+        <dir os="win8"><![CDATA[%Systemroot%\IME\IMEJP]]></dir>
+        <dir os="win8"><![CDATA[%Systemroot%\System32\IME\IMEJP]]></dir>
+        <dir os="win8"><![CDATA[%Systemroot%\SysWOW64\IME\IMEJP]]></dir>
+        <path os="win8"><![CDATA[%Systemroot%\IME\IMEJP]]></path>
+        <path os="win8"><![CDATA[%Systemroot%\System32\IME\IMEJP]]></path>
+        <path os="win8"><![CDATA[%Systemroot%\SysWOW64\IME\IMEJP]]></path>
+        <!-- vista -->
+        <dir os="vista"><![CDATA[%Systemroot%\IME\IMEJP10]]></dir>
+        <dir os="vista"><![CDATA[%Systemroot%\System32\IME\IMEJP10]]></dir>
+        <dir os="vista"><![CDATA[%Systemroot%\SysWOW64\IME\IMEJP10]]></dir>
+        <path os="vista"><![CDATA[%Systemroot%\IME\IMEJP10]]></path>
+        <path os="vista"><![CDATA[%Systemroot%\System32\IME\IMEJP10]]></path>
+        <path os="vista"><![CDATA[%Systemroot%\SysWOW64\IME\IMEJP10]]></path>
+        <!-- win10 -->
+        <dir os="win10"><![CDATA[%Systemroot%\IME\IMEJP]]></dir>
+        <dir os="win10"><![CDATA[%Systemroot%\System32\IME\IMEJP]]></dir>
+        <dir os="win10"><![CDATA[%Systemroot%\SysWOW64\IME\IMEJP]]></dir>
+        <path os="win10"><![CDATA[%Systemroot%\IME\IMEJP]]></path>
+        <path os="win10"><![CDATA[%Systemroot%\System32\IME\IMEJP]]></path>
+        <path os="win10"><![CDATA[%Systemroot%\SysWOW64\IME\IMEJP]]></path>
+        <!-- xp -->
+        <!--
+		<dir os="xp"><![CDATA[%Systemroot%\IME\IMJP8_1]]></dir>
+		<path os="xp"><![CDATA[%Systemroot%\IME\IMJP8_1]]></path>
+		-->
+    </slim>
+    <slim>
+        <id>2</id>
+        <gid>0</gid>
+        <autocheck>false</autocheck>
+        <name>韩文输入法</name>
+        <description>系统自带的微软韩文(朝鲜语)输入法，如果您不使用此输入法，可以安全删除。</description>
+        <!--<warning><![CDATA[您即将删除系统自带“微软输入法-韩文 （朝鲜语）”,删除前请务必确认您不需使用此输入法。]]></warning>-->
+        <!-- win7 -->
+        <dir os="win7"><![CDATA[%Systemroot%\IME\imekr8]]></dir>
+        <dir os="win7"><![CDATA[%Systemroot%\System32\IME\imekr8]]></dir>
+        <dir os="win7"><![CDATA[%Systemroot%\SysWOW64\IME\imekr8]]></dir>
+        <path os="win7"><![CDATA[%Systemroot%\IME\imekr8]]></path>
+        <path os="win7"><![CDATA[%Systemroot%\System32\IME\imekr8]]></path>
+        <path os="win7"><![CDATA[%Systemroot%\SysWOW64\IME\imekr8]]></path>
+        <!-- win8 -->
+        <dir os="win8"><![CDATA[%Systemroot%\IME\imekr]]></dir>
+        <dir os="win8"><![CDATA[%Systemroot%\System32\IME\imekr]]></dir>
+        <dir os="win8"><![CDATA[%Systemroot%\SysWOW64\IME\imekr]]></dir>	
+        <path os="win8"><![CDATA[%Systemroot%\IME\imekr]]></path>
+        <path os="win8"><![CDATA[%Systemroot%\System32\IME\imekr]]></path>
+        <path os="win8"><![CDATA[%Systemroot%\SysWOW64\IME\imekr]]></path>	
+        <!-- vista -->
+        <dir os="vista"><![CDATA[%Systemroot%\IME\imekr8]]></dir>
+        <dir os="vista"><![CDATA[%Systemroot%\System32\IME\imekr8]]></dir>
+        <dir os="vista"><![CDATA[%Systemroot%\SysWOW64\IME\imekr8]]></dir>
+        <path os="vista"><![CDATA[%Systemroot%\IME\imekr8]]></path>
+        <path os="vista"><![CDATA[%Systemroot%\System32\IME\imekr8]]></path>
+        <path os="vista"><![CDATA[%Systemroot%\SysWOW64\IME\imekr8]]></path>
+        <!-- win10 -->
+        <dir os="win10"><![CDATA[%Systemroot%\IME\imekr]]></dir>
+        <dir os="win10"><![CDATA[%Systemroot%\System32\IME\imekr]]></dir>
+        <dir os="win10"><![CDATA[%Systemroot%\SysWOW64\IME\imekr]]></dir>	
+        <path os="win10"><![CDATA[%Systemroot%\IME\imekr]]></path>
+        <path os="win10"><![CDATA[%Systemroot%\System32\IME\imekr]]></path>
+        <path os="win10"><![CDATA[%Systemroot%\SysWOW64\IME\imekr]]></path>	
+        <!-- xp -->
+        <!--
+		<dir os="xp"><![CDATA[%Systemroot%\IME\IMKR6_1]]></dir>
+		<path os="xp"><![CDATA[%Systemroot%\IME\IMKR6_1]]></path>
+		-->
+    </slim>
+    <slim>
+        <id>3</id>
+        <gid>0</gid>
+        <autocheck>false</autocheck>
+        <name>繁体输入法</name>
+        <description>系统自带的微软繁体中文输入法，如果您不使用此输入法，可以安全删除。</description>
+        <!--<warning>您即将删除系统自带“微软输入法-繁体中文”，删除前请务必确认您不需要使用此输入法。</warning>-->
+        <!-- win 7 -->
+        <dir os="win7"><![CDATA[%Systemroot%\IME\IMETC10]]></dir>
+        <dir os="win7"><![CDATA[%Systemroot%\System32\IME\IMETC10]]></dir>
+        <dir os="win7"><![CDATA[%Systemroot%\SysWOW64\IME\IMETC10]]></dir>
+        <path os="win7"><![CDATA[%Systemroot%\IME\IMETC10]]></path>
+        <path os="win7"><![CDATA[%Systemroot%\System32\IME\IMETC10]]></path>
+        <path os="win7"><![CDATA[%Systemroot%\SysWOW64\IME\IMETC10]]></path>
+        <!-- win8 -->
+        <dir os="win8"><![CDATA[%Systemroot%\IME\IMETC]]></dir>
+        <dir os="win8"><![CDATA[%Systemroot%\System32\IME\IMETC]]></dir>
+        <dir os="win8"><![CDATA[%Systemroot%\SysWOW64\IME\IMETC]]></dir>
+        <path os="win8"><![CDATA[%Systemroot%\IME\IMETC]]></path>
+        <path os="win8"><![CDATA[%Systemroot%\System32\IME\IMETC]]></path>
+        <path os="win8"><![CDATA[%Systemroot%\SysWOW64\IME\IMETC]]></path>
+        <!-- vista -->
+        <dir os="vista"><![CDATA[%Systemroot%\IME\IMETC10]]></dir>
+        <dir os="vista"><![CDATA[%Systemroot%\System32\IME\IMETC10]]></dir>
+        <dir os="vista"><![CDATA[%Systemroot%\SysWOW64\IME\IMETC10]]></dir>
+        <path os="vista"><![CDATA[%Systemroot%\IME\IMETC10]]></path>
+        <path os="vista"><![CDATA[%Systemroot%\System32\IME\IMETC10]]></path>
+        <path os="vista"><![CDATA[%Systemroot%\SysWOW64\IME\IMETC10]]></path>
+        <!-- win10 -->
+        <dir os="win10"><![CDATA[%Systemroot%\IME\IMETC]]></dir>
+        <dir os="win10"><![CDATA[%Systemroot%\System32\IME\IMETC]]></dir>
+        <dir os="win10"><![CDATA[%Systemroot%\SysWOW64\IME\IMETC]]></dir>
+        <path os="win10"><![CDATA[%Systemroot%\IME\IMETC]]></path>
+        <path os="win10"><![CDATA[%Systemroot%\System32\IME\IMETC]]></path>
+        <path os="win10"><![CDATA[%Systemroot%\SysWOW64\IME\IMETC]]></path>
+        <!-- xp -->
+        <!--
+		<dir os="xp"><![CDATA[%Systemroot%\IME\CHTIME]]></dir>
+		<path os="xp"><![CDATA[%Systemroot%\IME\CHTIME]]></path>
+		-->
+    </slim>
+    <slim>
+        <id>4</id>
+        <gid>0</gid>
+        <autocheck>false</autocheck>
+        <name>微软拼音</name>
+        <description>系统自带的微软拼音输入法，如果您不使用此输入法，可以安全删除。</description>
+        <!--<warning>您即将删除系统自带的“微软拼音输入法”，删除前请务必确认您不需要使用此输入法。</warning>-->
+        <!-- win7 -->
+        <dir os="win7"><![CDATA[%Systemroot%\IME\IMESC5]]></dir>
+        <dir os="win7"><![CDATA[%Systemroot%\System32\IME\IMESC5]]></dir>
+        <dir os="win7"><![CDATA[%Systemroot%\SysWOW64\IME\IMESC5]]></dir>
+        <path os="win7"><![CDATA[%Systemroot%\IME\IMESC5]]></path>
+        <path os="win7"><![CDATA[%Systemroot%\System32\IME\IMESC5]]></path>
+        <path os="win7"><![CDATA[%Systemroot%\SysWOW64\IME\IMESC5]]></path>
+        <!-- vista -->
+        <dir os="vista"><![CDATA[%Systemroot%\IME\IMESC5]]></dir>
+        <dir os="vista"><![CDATA[%Systemroot%\System32\IME\IMESC5]]></dir>
+        <dir os="vista"><![CDATA[%Systemroot%\SysWOW64\IME\IMESC5]]></dir>
+        <path os="vista"><![CDATA[%Systemroot%\IME\IMESC5]]></path>
+        <path os="vista"><![CDATA[%Systemroot%\System32\IME\IMESC5]]></path>
+        <path os="vista"><![CDATA[%Systemroot%\SysWOW64\IME\IMESC5]]></path>
+        <!-- xp -->
+        <!--
+		<dir os="xp"><![CDATA[%Systemroot%\IME\CHSIME]]></dir>
+		<path os="xp"><![CDATA[%Systemroot%\IME\CHSIME]]></path>
+		-->
+    </slim>
+    <slim>
+        <id>5</id>
+        <gid>1</gid>
+        <autocheck>true</autocheck>
+        <name>示例录像</name>
+        <description>系统自带的示例电视录像文件，可以安全删除。</description>
+        <!--<warning>&lt;br/&gt;您即将删除Windows系统“示例电视录像文件”。</warning>-->
+        <!-- win7 -->
+        <dir os="win7"><![CDATA[%Public%\Recorded TV\Sample Media]]></dir>
+        <dir os="win7"><![CDATA[%Systemroot%\winsxs\amd64_microsoft-windows-ehome-samplemedia_31bf3856ad364e35_6.1.7600.16385_none_b6b9b223710b3802]]></dir>
+        <path os="win7"><![CDATA[%Public%\Recorded TV\Sample Media\win7_scenic-demoshort_raw.wtv]]></path>
+        <path os="win7"><![CDATA[%Systemroot%\winsxs\amd64_microsoft-windows-ehome-samplemedia_31bf3856ad364e35_6.1.7600.16385_none_b6b9b223710b3802\win7_scenic-demoshort_raw.wtv]]></path>
+        <!-- vista -->
+        <dir os="vista"><![CDATA[%Public%\Recorded TV\Sample Media]]></dir>	
+        <path os="vista"><![CDATA[%Public%\Recorded TV\Sample Media\Apollo 13.dvr-ms]]></path>
+        <path os="vista"><![CDATA[%Public%\Recorded TV\Sample Media\Apollo 13.jpg]]></path>
+        <path os="vista"><![CDATA[%Public%\Recorded TV\Sample Media\Jewels of Caribbean.dvr-ms]]></path>
+        <path os="vista"><![CDATA[%Public%\Recorded TV\Sample Media\Vertigo.dvr-ms]]></path>
+        <path os="vista"><![CDATA[%Public%\Recorded TV\Sample Media\Vertigo.jpg]]></path>
+    </slim>
+    <slim>
+        <id>6</id>
+        <gid>1</gid>
+        <autocheck>true</autocheck>
+        <name>示例音乐</name>
+        <description>Windows系统自带的示例音乐，可以安全删除。</description>
+        <!--<warning>&lt;br/&gt;您即将删除Windows系统自带“示例音乐”。</warning>-->
+        <!-- xp -->
+        <dir os="xp"><![CDATA[%ALLUSERSPROFILE%\Documents\my music\示例音乐]]></dir>
+        <dir os="xp"><![CDATA[%ALLUSERSPROFILE%\Documents\my music\sample music]]></dir>
+        <path os="xp"><![CDATA[%ALLUSERSPROFILE%\Documents\my music\示例音乐\Beethoven's Symphony No. 9 (Scherzo).wma]]></path>
+        <path os="xp"><![CDATA[%ALLUSERSPROFILE%\Documents\my music\示例音乐\New Stories (Highway Blues).wma]]></path>
+        <path os="xp"><![CDATA[%ALLUSERSPROFILE%\Documents\my music\sample music\Beethoven's Symphony No. 9 (Scherzo).wma]]></path>
+        <path os="xp"><![CDATA[%ALLUSERSPROFILE%\Documents\my music\sample music\New Stories (Highway Blues).wma]]></path>
+        <!-- win7 -->
+        <dir os="win7"><![CDATA[%Public%\Music\Sample Music]]></dir>
+        <dir os="win7"><![CDATA[%Systemroot%\winsxs\winsxs\x86_microsoft-windows-ehome-samplemedia_31bf3856ad364e35_6.1.7600.16385_none_5a9b169fb8adc6cc]]></dir>
+        <path os="win7"><![CDATA[%Public%\Music\Sample Music\Sleep Away.mp3]]></path>
+        <path os="win7"><![CDATA[%Public%\Music\Sample Music\Maid with the Flaxen Hair.mp3]]></path>
+        <path os="win7"><![CDATA[%Public%\Music\Sample Music\Kalimba.mp3]]></path>
+        <path os="win7"><![CDATA[%Systemroot%\winsxs\winsxs\x86_microsoft-windows-ehome-samplemedia_31bf3856ad364e35_6.1.7600.16385_none_5a9b169fb8adc6cc\Sleep Away.mp3]]></path>
+        <path os="win7"><![CDATA[%Systemroot%\winsxs\winsxs\x86_microsoft-windows-ehome-samplemedia_31bf3856ad364e35_6.1.7600.16385_none_5a9b169fb8adc6cc\Maid with the Flaxen Hair.mp3]]></path>
+        <path os="win7"><![CDATA[%Systemroot%\winsxs\winsxs\x86_microsoft-windows-ehome-samplemedia_31bf3856ad364e35_6.1.7600.16385_none_5a9b169fb8adc6cc\Kalimba.mp3]]></path>
+        <!-- vista -->
+        <dir os="vista"><![CDATA[%Public%\Music\Sample Music]]></dir>
+        <path os="vista"><![CDATA[%Public%\Music\Sample Music\Symphony_No_3.wma]]></path>
+        <path os="vista"><![CDATA[%Public%\Music\Sample Music\One Step Beyond.wma]]></path>
+        <path os="vista"><![CDATA[%Public%\Music\Sample Music\OAM's Blues.wma]]></path>
+        <path os="vista"><![CDATA[%Public%\Music\Sample Music\Muita Bobeira.wma]]></path>
+        <path os="vista"><![CDATA[%Public%\Music\Sample Music\Love Comes.wma]]></path>
+        <path os="vista"><![CDATA[%Public%\Music\Sample Music\I Ka Barra (Your Work).wma]]></path>
+        <path os="vista"><![CDATA[%Public%\Music\Sample Music\I Guess You're Right.wma]]></path>
+        <path os="vista"><![CDATA[%Public%\Music\Sample Music\Distance.wma]]></path>
+        <path os="vista"><![CDATA[%Public%\Music\Sample Music\Din Din Wo (Little Child).wma]]></path>
+        <path os="vista"><![CDATA[%Public%\Music\Sample Music\Despertar.wma]]></path>
+        <path os="vista"><![CDATA[%Public%\Music\Sample Music\Amanda.wma]]></path>
+    </slim>
+    <slim>
+        <id>7</id>
+        <gid>1</gid>
+        <autocheck>true</autocheck>
+        <name>示例图片</name>
+        <description>Windows系统自带的示例图片，可以安全删除。</description>
+        <!--<warning>&lt;br/&gt;您即将删除系统自带“示例图片”。</warning>-->
+        <!-- xp -->
+        <dir os="xp"><![CDATA[%ALLUSERSPROFILE%\Documents\My Pictures\示例图片]]></dir>
+        <dir os="xp"><![CDATA[%ALLUSERSPROFILE%\Documents\My Pictures\sample pictures]]></dir>
+        <path os="xp"><![CDATA[%ALLUSERSPROFILE%\Documents\My Pictures\示例图片\Blue hills.jpg]]></path>
+        <path os="xp"><![CDATA[%ALLUSERSPROFILE%\Documents\My Pictures\示例图片\Sunset.jpg]]></path>
+        <path os="xp"><![CDATA[%ALLUSERSPROFILE%\Documents\My Pictures\示例图片\Water lilies.jpg]]></path>
+        <path os="xp"><![CDATA[%ALLUSERSPROFILE%\Documents\My Pictures\示例图片\Winter.jpg]]></path>
+        <path os="xp"><![CDATA[%ALLUSERSPROFILE%\Documents\My Pictures\sample pictures\Blue hills.jpg]]></path>
+        <path os="xp"><![CDATA[%ALLUSERSPROFILE%\Documents\My Pictures\sample pictures\Sunset.jpg]]></path>
+        <path os="xp"><![CDATA[%ALLUSERSPROFILE%\Documents\My Pictures\sample pictures\Water lilies.jpg]]></path>
+        <path os="xp"><![CDATA[%ALLUSERSPROFILE%\Documents\My Pictures\sample pictures\Winter.jpg]]></path>
+        <!-- win7 -->
+        <dir os="win7"><![CDATA[%Public%\Pictures\Sample Pictures]]></dir>
+        <dir os="win7"><![CDATA[%Systemroot%\winsxs\x86_microsoft-windows-photosamples_31bf3856ad364e35_6.1.7600.16385_none_974f72e1e322d188]]></dir>
+        <path os="win7"><![CDATA[%Public%\Pictures\Sample Pictures\Chrysanthemum.jpg]]></path>
+        <path os="win7"><![CDATA[%Public%\Pictures\Sample Pictures\Desert.jpg]]></path>
+        <path os="win7"><![CDATA[%Public%\Pictures\Sample Pictures\Hydrangeas.jpg]]></path>
+        <path os="win7"><![CDATA[%Public%\Pictures\Sample Pictures\Jellyfish.jpg]]></path>
+        <path os="win7"><![CDATA[%Public%\Pictures\Sample Pictures\Koala.jpg]]></path>
+        <path os="win7"><![CDATA[%Public%\Pictures\Sample Pictures\Lighthouse.jpg]]></path>
+        <path os="win7"><![CDATA[%Public%\Pictures\Sample Pictures\Penguins.jpg]]></path>
+        <path os="win7"><![CDATA[%Public%\Pictures\Sample Pictures\Tulips.jpg]]></path>
+        <path os="win7"><![CDATA[%Systemroot%\winsxs\x86_microsoft-windows-photosamples_31bf3856ad364e35_6.1.7600.16385_none_974f72e1e322d188\Chrysanthemum.jpg]]></path>
+        <path os="win7"><![CDATA[%Systemroot%\winsxs\x86_microsoft-windows-photosamples_31bf3856ad364e35_6.1.7600.16385_none_974f72e1e322d188\Desert.jpg]]></path>
+        <path os="win7"><![CDATA[%Systemroot%\winsxs\x86_microsoft-windows-photosamples_31bf3856ad364e35_6.1.7600.16385_none_974f72e1e322d188\Hydrangeas.jpg]]></path>
+        <path os="win7"><![CDATA[%Systemroot%\winsxs\x86_microsoft-windows-photosamples_31bf3856ad364e35_6.1.7600.16385_none_974f72e1e322d188\Jellyfish.jpg]]></path>
+        <path os="win7"><![CDATA[%Systemroot%\winsxs\x86_microsoft-windows-photosamples_31bf3856ad364e35_6.1.7600.16385_none_974f72e1e322d188\Koala.jpg]]></path>
+        <path os="win7"><![CDATA[%Systemroot%\winsxs\x86_microsoft-windows-photosamples_31bf3856ad364e35_6.1.7600.16385_none_974f72e1e322d188\Lighthouse.jpg]]></path>
+        <path os="win7"><![CDATA[%Systemroot%\winsxs\x86_microsoft-windows-photosamples_31bf3856ad364e35_6.1.7600.16385_none_974f72e1e322d188\Penguins.jpg]]></path>
+        <path os="win7"><![CDATA[%Systemroot%\winsxs\x86_microsoft-windows-photosamples_31bf3856ad364e35_6.1.7600.16385_none_974f72e1e322d188\Tulips.jpg]]></path>
+        <!-- vista -->
+        <dir os="vista"><![CDATA[%Public%\Pictures\Sample Pictures]]></dir>
+        <path os="vista"><![CDATA[%Public%\Pictures\Sample Pictures\Winter Leaves.jpg]]></path>
+        <path os="vista"><![CDATA[%Public%\Pictures\Sample Pictures\Waterfall.jpg]]></path>
+        <path os="vista"><![CDATA[%Public%\Pictures\Sample Pictures\Tree.jpg]]></path>
+        <path os="vista"><![CDATA[%Public%\Pictures\Sample Pictures\Toco Toucan.jpg]]></path>
+        <path os="vista"><![CDATA[%Public%\Pictures\Sample Pictures\Oryx Antelope.jpg]]></path>
+        <path os="vista"><![CDATA[%Public%\Pictures\Sample Pictures\Humpback Whale.jpg]]></path>
+        <path os="vista"><![CDATA[%Public%\Pictures\Sample Pictures\Green Sea Turtle.jpg]]></path>
+        <path os="vista"><![CDATA[%Public%\Pictures\Sample Pictures\Garden.jpg]]></path>
+        <path os="vista"><![CDATA[%Public%\Pictures\Sample Pictures\Frangipani Flowers.jpg]]></path>
+        <path os="vista"><![CDATA[%Public%\Pictures\Sample Pictures\Forest.jpg]]></path>
+        <path os="vista"><![CDATA[%Public%\Pictures\Sample Pictures\Forest Flowers.jpg]]></path>
+        <path os="vista"><![CDATA[%Public%\Pictures\Sample Pictures\Dock.jpg]]></path>
+        <path os="vista"><![CDATA[%Public%\Pictures\Sample Pictures\Desert Landscape.jpg]]></path>
+        <path os="vista"><![CDATA[%Public%\Pictures\Sample Pictures\Creek.jpg]]></path>
+        <path os="vista"><![CDATA[%Public%\Pictures\Sample Pictures\Autumn Leaves.jpg]]></path>
+    </slim>
+    <slim>
+        <id>8</id>
+        <gid>1</gid>
+        <autocheck>true</autocheck>
+        <name>示例视频</name>
+        <description>系统自带的示例视频，可以安全删除。</description>
+        <!--<warning>&lt;br/&gt;您即将删除系统自带“示例视频”。</warning>-->
+        <!-- win7 -->
+        <dir os="win7"><![CDATA[%Public%\Videos\Sample Videos]]></dir>
+        <path os="win7"><![CDATA[%Public%\Videos\Sample Videos\Wildlife.wmv]]></path>		
+        <!-- vista -->
+        <dir os="vista"><![CDATA[%Public%\Videos\Sample Videos]]></dir>
+        <path os="vista"><![CDATA[%Public%\Videos\Sample Videos\Lake.wmv]]></path>
+        <path os="vista"><![CDATA[%Public%\Videos\Sample Videos\Butterfly.wmv]]></path>
+        <path os="vista"><![CDATA[%Public%\Videos\Sample Videos\Bear.wmv]]></path>
+    </slim>
+    <slim>
+        <id>9</id>
+        <gid>1</gid>
+        <autocheck>false</autocheck>
+        <name>系统自带壁纸</name>
+        <description>系统自带的桌面壁纸，可以安全删除。</description>
+        <!--<warning>&lt;br/&gt;您即将删除Windows系统“系统自带壁纸”文件。</warning>-->
+        <dir os="all"><![CDATA[%Systemroot%\Web\Wallpaper]]></dir>
+        <!-- xp -->
+        <path os="xp"><![CDATA[%Systemroot%\Web\Wallpaper\Ascent.jpg]]></path>
+        <path os="xp"><![CDATA[%Systemroot%\Web\Wallpaper\Autumn.jpg]]></path>
+        <path os="xp"><![CDATA[%Systemroot%\Web\Wallpaper\Azul.jpg]]></path>
+        <path os="xp"><![CDATA[%Systemroot%\Web\Wallpaper\Bliss.bmp]]></path>
+        <path os="xp"><![CDATA[%Systemroot%\Web\Wallpaper\Crystal.jpg]]></path>
+        <path os="xp"><![CDATA[%Systemroot%\Web\Wallpaper\Follow.jpg]]></path>
+        <path os="xp"><![CDATA[%Systemroot%\Web\Wallpaper\Friend.jpg]]></path>
+        <path os="xp"><![CDATA[%Systemroot%\Web\Wallpaper\Home.jpg]]></path>
+        <path os="xp"><![CDATA[%Systemroot%\Web\Wallpaper\Moon flower.jpg]]></path>
+        <path os="xp"><![CDATA[%Systemroot%\Web\Wallpaper\Peace.jpg]]></path>
+        <path os="xp"><![CDATA[%Systemroot%\Web\Wallpaper\Power.jpg]]></path>
+        <path os="xp"><![CDATA[%Systemroot%\Web\Wallpaper\Purple flower.jpg]]></path>
+        <path os="xp"><![CDATA[%Systemroot%\Web\Wallpaper\Radiance.jpg]]></path>
+        <path os="xp"><![CDATA[%Systemroot%\Web\Wallpaper\Red moon desert.jpg]]></path>
+        <path os="xp"><![CDATA[%Systemroot%\Web\Wallpaper\Ripple.jpg]]></path>
+        <path os="xp"><![CDATA[%Systemroot%\Web\Wallpaper\Stonehenge.jpg]]></path>
+        <path os="xp"><![CDATA[%Systemroot%\Web\Wallpaper\Tulips.jpg]]></path>
+        <path os="xp"><![CDATA[%Systemroot%\Web\Wallpaper\Vortec space.jpg]]></path>
+        <path os="xp"><![CDATA[%Systemroot%\Web\Wallpaper\Wind.jpg]]></path>
+        <path os="xp"><![CDATA[%Systemroot%\Web\Wallpaper\Windows XP.jpg]]></path>
+        <!-- win7 -->
+        <path os="win7"><![CDATA[%Systemroot%\Web\Wallpaper\Windows\img0.jpg]]></path>
+        <path os="win7"><![CDATA[%Systemroot%\Web\Wallpaper\Nature\img1.jpg]]></path>
+        <path os="win7"><![CDATA[%Systemroot%\Web\Wallpaper\Nature\img2.jpg]]></path>
+        <path os="win7"><![CDATA[%Systemroot%\Web\Wallpaper\Nature\img3.jpg]]></path>
+        <path os="win7"><![CDATA[%Systemroot%\Web\Wallpaper\Nature\img4.jpg]]></path>
+        <path os="win7"><![CDATA[%Systemroot%\Web\Wallpaper\Nature\img5.jpg]]></path>
+        <path os="win7"><![CDATA[%Systemroot%\Web\Wallpaper\Nature\img6.jpg]]></path>
+        <path os="win7"><![CDATA[%Systemroot%\Web\Wallpaper\Landscapes\img7.jpg]]></path>
+        <path os="win7"><![CDATA[%Systemroot%\Web\Wallpaper\Landscapes\img8.jpg]]></path>
+        <path os="win7"><![CDATA[%Systemroot%\Web\Wallpaper\Landscapes\img9.jpg]]></path>
+        <path os="win7"><![CDATA[%Systemroot%\Web\Wallpaper\Landscapes\img10.jpg]]></path>
+        <path os="win7"><![CDATA[%Systemroot%\Web\Wallpaper\Landscapes\img11.jpg]]></path>
+        <path os="win7"><![CDATA[%Systemroot%\Web\Wallpaper\Landscapes\img12.jpg]]></path>
+        <path os="win7"><![CDATA[%Systemroot%\Web\Wallpaper\Architecture\img13.jpg]]></path>
+        <path os="win7"><![CDATA[%Systemroot%\Web\Wallpaper\Architecture\img14.jpg]]></path>
+        <path os="win7"><![CDATA[%Systemroot%\Web\Wallpaper\Architecture\img15.jpg]]></path>
+        <path os="win7"><![CDATA[%Systemroot%\Web\Wallpaper\Architecture\img16.jpg]]></path>
+        <path os="win7"><![CDATA[%Systemroot%\Web\Wallpaper\Architecture\img17.jpg]]></path>
+        <path os="win7"><![CDATA[%Systemroot%\Web\Wallpaper\Architecture\img18.jpg]]></path>
+        <path os="win7"><![CDATA[%Systemroot%\Web\Wallpaper\Characters\img19.jpg]]></path>
+        <path os="win7"><![CDATA[%Systemroot%\Web\Wallpaper\Characters\img20.jpg]]></path>
+        <path os="win7"><![CDATA[%Systemroot%\Web\Wallpaper\Characters\img21.jpg]]></path>
+        <path os="win7"><![CDATA[%Systemroot%\Web\Wallpaper\Characters\img22.jpg]]></path>
+        <path os="win7"><![CDATA[%Systemroot%\Web\Wallpaper\Characters\img23.jpg]]></path>
+        <path os="win7"><![CDATA[%Systemroot%\Web\Wallpaper\Characters\img24.jpg]]></path>
+        <path os="win7"><![CDATA[%Systemroot%\Web\Wallpaper\Scenes\img25.jpg]]></path>
+        <path os="win7"><![CDATA[%Systemroot%\Web\Wallpaper\Scenes\img26.jpg]]></path>
+        <path os="win7"><![CDATA[%Systemroot%\Web\Wallpaper\Scenes\img27.jpg]]></path>
+        <path os="win7"><![CDATA[%Systemroot%\Web\Wallpaper\Scenes\img28.jpg]]></path>
+        <path os="win7"><![CDATA[%Systemroot%\Web\Wallpaper\Scenes\img29.jpg]]></path>
+        <path os="win7"><![CDATA[%Systemroot%\Web\Wallpaper\Scenes\img30.jpg]]></path>
+        <!-- win8 -->
+        <path os="win8"><![CDATA[%Systemroot%\Web\Wallpaper\Windows\img0.jpg]]></path>
+        <path os="win8"><![CDATA[%Systemroot%\Web\Wallpaper\Theme1\img1.jpg]]></path>
+        <path os="win8"><![CDATA[%Systemroot%\Web\Wallpaper\Theme1\img2.jpg]]></path>
+        <path os="win8"><![CDATA[%Systemroot%\Web\Wallpaper\Theme1\img3.jpg]]></path>
+        <path os="win8"><![CDATA[%Systemroot%\Web\Wallpaper\Theme1\img4.jpg]]></path>
+        <path os="win8"><![CDATA[%Systemroot%\Web\Wallpaper\Theme1\img5.jpg]]></path>
+        <path os="win8"><![CDATA[%Systemroot%\Web\Wallpaper\Theme1\img6.jpg]]></path>
+        <path os="win8"><![CDATA[%Systemroot%\Web\Wallpaper\Theme2\img1.jpg]]></path>
+        <path os="win8"><![CDATA[%Systemroot%\Web\Wallpaper\Theme2\img2.jpg]]></path>
+        <path os="win8"><![CDATA[%Systemroot%\Web\Wallpaper\Theme2\img3.jpg]]></path>
+        <path os="win8"><![CDATA[%Systemroot%\Web\Wallpaper\Theme2\img4.jpg]]></path>
+        <path os="win8"><![CDATA[%Systemroot%\Web\Wallpaper\Theme2\img5.jpg]]></path>
+        <path os="win8"><![CDATA[%Systemroot%\Web\Wallpaper\Theme2\img6.jpg]]></path>
+        <!-- vista -->
+        <path os="vista"><![CDATA[%Systemroot%\Web\Wallpaper\img1.jpg]]></path>
+        <path os="vista"><![CDATA[%Systemroot%\Web\Wallpaper\img2.jpg]]></path>
+        <path os="vista"><![CDATA[%Systemroot%\Web\Wallpaper\img3.jpg]]></path>
+        <path os="vista"><![CDATA[%Systemroot%\Web\Wallpaper\img4.jpg]]></path>
+        <path os="vista"><![CDATA[%Systemroot%\Web\Wallpaper\img5.jpg]]></path>
+        <path os="vista"><![CDATA[%Systemroot%\Web\Wallpaper\img6.jpg]]></path>
+        <path os="vista"><![CDATA[%Systemroot%\Web\Wallpaper\img7.jpg]]></path>
+        <path os="vista"><![CDATA[%Systemroot%\Web\Wallpaper\img8.jpg]]></path>
+        <path os="vista"><![CDATA[%Systemroot%\Web\Wallpaper\img9.jpg]]></path>
+        <path os="vista"><![CDATA[%Systemroot%\Web\Wallpaper\img10.jpg]]></path>
+        <path os="vista"><![CDATA[%Systemroot%\Web\Wallpaper\img11.jpg]]></path>
+        <path os="vista"><![CDATA[%Systemroot%\Web\Wallpaper\img12.jpg]]></path>
+        <path os="vista"><![CDATA[%Systemroot%\Web\Wallpaper\img13.jpg]]></path>
+        <path os="vista"><![CDATA[%Systemroot%\Web\Wallpaper\img14.jpg]]></path>
+        <path os="vista"><![CDATA[%Systemroot%\Web\Wallpaper\img15.jpg]]></path>
+        <path os="vista"><![CDATA[%Systemroot%\Web\Wallpaper\img16.jpg]]></path>
+        <path os="vista"><![CDATA[%Systemroot%\Web\Wallpaper\img17.jpg]]></path>
+        <path os="vista"><![CDATA[%Systemroot%\Web\Wallpaper\img18.jpg]]></path>
+        <path os="vista"><![CDATA[%Systemroot%\Web\Wallpaper\img19.jpg]]></path>
+        <path os="vista"><![CDATA[%Systemroot%\Web\Wallpaper\img20.jpg]]></path>
+        <path os="vista"><![CDATA[%Systemroot%\Web\Wallpaper\img21.jpg]]></path>
+        <path os="vista"><![CDATA[%Systemroot%\Web\Wallpaper\img22.jpg]]></path>
+        <path os="vista"><![CDATA[%Systemroot%\Web\Wallpaper\img23.jpg]]></path>
+        <path os="vista"><![CDATA[%Systemroot%\Web\Wallpaper\img24.jpg]]></path>
+        <path os="vista"><![CDATA[%Systemroot%\Web\Wallpaper\img25.jpg]]></path>
+        <path os="vista"><![CDATA[%Systemroot%\Web\Wallpaper\img26.jpg]]></path>
+        <path os="vista"><![CDATA[%Systemroot%\Web\Wallpaper\img27.jpg]]></path>
+        <path os="vista"><![CDATA[%Systemroot%\Web\Wallpaper\img28.jpg]]></path>
+        <path os="vista"><![CDATA[%Systemroot%\Web\Wallpaper\img29.jpg]]></path>
+        <path os="vista"><![CDATA[%Systemroot%\Web\Wallpaper\img30.jpg]]></path>
+        <path os="vista"><![CDATA[%Systemroot%\Web\Wallpaper\img31.jpg]]></path>
+        <path os="vista"><![CDATA[%Systemroot%\Web\Wallpaper\img32.jpg]]></path>
+        <path os="vista"><![CDATA[%Systemroot%\Web\Wallpaper\img33.jpg]]></path>
+        <path os="vista"><![CDATA[%Systemroot%\Web\Wallpaper\img34.jpg]]></path>
+        <path os="vista"><![CDATA[%Systemroot%\Web\Wallpaper\img35.jpg]]></path>
+        <path os="vista"><![CDATA[%Systemroot%\Web\Wallpaper\img36.jpg]]></path>
+        <!-- win10 -->
+        <path os="win10"><![CDATA[%Systemroot%\Web\Wallpaper\Windows\img0.jpg]]></path>
+        <path os="win10"><![CDATA[%Systemroot%\Web\Wallpaper\Theme1\img1.jpg]]></path>
+        <path os="win10"><![CDATA[%Systemroot%\Web\Wallpaper\Theme1\img2.jpg]]></path>
+        <path os="win10"><![CDATA[%Systemroot%\Web\Wallpaper\Theme1\img3.jpg]]></path>
+        <path os="win10"><![CDATA[%Systemroot%\Web\Wallpaper\Theme1\img4.jpg]]></path>
+        <path os="win10"><![CDATA[%Systemroot%\Web\Wallpaper\Theme1\img5.jpg]]></path>
+        <path os="win10"><![CDATA[%Systemroot%\Web\Wallpaper\Theme1\img6.jpg]]></path>
+        <path os="win10"><![CDATA[%Systemroot%\Web\Wallpaper\Theme1\img13.jpg]]></path>
+        <path os="win10"><![CDATA[%Systemroot%\Web\Wallpaper\Theme2\img7.jpg]]></path>
+        <path os="win10"><![CDATA[%Systemroot%\Web\Wallpaper\Theme2\img8.jpg]]></path>
+        <path os="win10"><![CDATA[%Systemroot%\Web\Wallpaper\Theme2\img9.jpg]]></path>
+        <path os="win10"><![CDATA[%Systemroot%\Web\Wallpaper\Theme2\img10.jpg]]></path>
+        <path os="win10"><![CDATA[%Systemroot%\Web\Wallpaper\Theme2\img11.jpg]]></path>
+        <path os="win10"><![CDATA[%Systemroot%\Web\Wallpaper\Theme2\img12.jpg]]></path>
+    </slim>
+    <slim>
+        <id>10</id>
+        <gid>2</gid>
+        <autocheck>false</autocheck>
+        <name>Office缓存</name>
+        <description>Microsoft Office安装、备份缓存，如确认不需要，可以删除。</description>
+        <dir os="all"><![CDATA[%SystemDrive%\MSOCache]]></dir>
+        <path os="all"><![CDATA[%SystemDrive%\MSOCache]]></path>
+        <dir os="all"><![CDATA[%localappdata%\Microsoft\Windows\Temporary Internet Files\Content.MSO]]></dir>
+        <path os="all"><![CDATA[%localappdata%\Microsoft\Windows\Temporary Internet Files\Content.MSO]]></path>
+    </slim>
+    <slim>
+        <id>11</id>
+        <gid>2</gid>
+        <autocheck>false</autocheck>
+        <name>旧版系统缓存</name>
+        <description>系统升级保留的旧版系统文件，如不需要保留，可以删除。</description>
+        <!-- 暂时屏蔽，Windows.Old已经在这里使用二进制检出 -->
+        <!--
+		<dir os="all"><![CDATA[%SystemDrive%\Windows.Old]]></dir>
+		<path os="all"><![CDATA[%SystemDrive%\Windows.Old]]></path>
+		
+		<dir os="xp"><![CDATA[%SystemDrive%\Windows.Old]]></dir>
+		<path os="xp"><![CDATA[%SystemDrive%\Windows.Old]]></path>
+
+		<dir os="win7"><![CDATA[%SystemDrive%\Windows.Old]]></dir>
+		<path os="win7"><![CDATA[%SystemDrive%\Windows.Old]]></path>
+
+		<dir os="vista"><![CDATA[%SystemDrive%\Windows.Old]]></dir>
+		<path os="vista"><![CDATA[%SystemDrive%\Windows.Old]]></path>
+		-->
+    </slim>
+    <!--
+    <slim>
+        <id>12</id>
+        <gid>2</gid>
+        <autocheck>true</autocheck>
+        <name>系统补丁备份</name>
+        <description>系统升级补丁备份文件，如不需要卸载已安装补丁，可以删除。</description>
+    </slim>
+    -->
+    <slim>
+        <id>13</id>
+        <gid>2</gid>
+        <autocheck>true</autocheck>
+        <name>安装包残留</name>
+        <description>Windows Installer类型的安装包产生的冗余文件，建议删除。</description>
+        <!--已经使用二进制安全检出和清理-->
+        <!--dir os="all"><![CDATA[%Systemroot%\Installer]]></dir-->
+    </slim>
+    <slim>
+        <id>14</id>
+        <gid>2</gid>
+        <autocheck>true</autocheck>
+        <name>转移虚拟内存</name>
+        <description>作为内存使用的硬盘空间，可转移到剩余空间最大的非系统盘。</description>
+    </slim>
+    <slim>
+        <id>15</id>
+        <gid>2</gid>
+        <autocheck>false</autocheck>
+        <name>帮助文件</name>
+        <description>系统帮助文件，如果对Windows系统比较熟悉，可安全删除。</description>
+        <!--<warning>您即将删除Windows系统“帮助文件”，删除前请务必确认您对系统足够熟悉，不再需要此帮助。</warning>-->
+        <!--
+		<dir os="xp"><![CDATA[%Systemroot%\Help]]></dir>
+		-->
+        <dir os="win7"><![CDATA[%Systemroot%\Help\Windows]]></dir>
+        <dir os="vista"><![CDATA[%Systemroot%\Help\Windows]]></dir>
+        <dir os="win8"><![CDATA[%Systemroot%\Help\Windows]]></dir>
+        <dir os="win10"><![CDATA[%Systemroot%\Help\Windows]]></dir>
+        <dir os="all"><![CDATA[%Systemroot%\Help\Windows]]></dir>
+        <!--
+        <path os="xp"><![CDATA[%Systemroot%\Help]]></path>
+		-->
+        <path os="win7"><![CDATA[%Systemroot%\Help\Windows]]></path>
+        <path os="vista"><![CDATA[%Systemroot%\Help\Windows]]></path>
+        <path os="win8"><![CDATA[%Systemroot%\Help\Windows]]></path>
+        <path os="win10"><![CDATA[%Systemroot%\Help\Windows]]></path>
+        <path os="all"><![CDATA[%Systemroot%\Help\Windows]]></path>
+    </slim>
+    <slim>
+        <id>16</id>
+        <gid>2</gid>
+        <autocheck>true</autocheck>
+        <name>系统转储文件</name>
+        <description>Windows系统转储临时文件，可以删除。</description>
+        <dir os="all"><![CDATA[%SystemRoot%\MEMORY.DMP]]></dir>
+        <path os="all"><![CDATA[%SystemRoot%\MEMORY.DMP]]></path>
+        <dir os="all"><![CDATA[%systemroot%\Minidump]]></dir>
+        <path os="all"><![CDATA[%systemroot%\Minidump]]></path>
+    </slim>
+	<slim>
+        <id>17</id>
+        <gid>2</gid>
+        <autocheck>true</autocheck>
+        <name>系统休眠文件</name>
+        <description>Windows系统休眠文件，不常用时建议删除，可节省系统空间。</description> 
+    </slim>
+	<slim>
+        <id>18</id>
+        <gid>2</gid>
+        <autocheck>false</autocheck>
+        <name>系统备份文件</name>
+        <description>Windows创建的系统还原点，旧的还原点可以删除</description>
+    </slim>
+	<slim>
+        <id>19</id>
+        <gid>2</gid>
+        <autocheck>true</autocheck>
+        <name>系统更新缓存</name> <!-- Windows更新清理 -->
+        <description>Windows更新后的副本，更新后可以清理以免占用空间（可能需要重启）</description>
+    </slim>
+	<slim>
+        <id>20</id>
+        <gid>2</gid>
+        <autocheck>true</autocheck>
+        <name>Windows防御</name> <!-- Windows defend防病毒 -->
+        <description>Windows Defend防病毒使用的非关键文件</description>
+    </slim>
+	<slim>
+        <id>21</id>
+        <gid>2</gid>
+        <autocheck>true</autocheck>
+        <name>诊断数据</name> <!-- 诊断数据查看器数据库文件 -->
+        <description>用于诊断数据查看器的数据库文件</description>
+    </slim>
+	<slim>
+        <id>23</id>
+        <gid>2</gid>
+        <autocheck>true</autocheck>
+        <name>缩略图缓存</name> <!-- 缩略图 -->
+        <description>Windows 媒体文件缩略图缓存，方便打开文件时能快速加载</description>
+    </slim>
+        <!--这个id=22被强制使用二进制检出，需要修改-->
+    
+	<slim>
+        <id>22</id>
+        <gid>2</gid>
+        <autocheck>true</autocheck>
+        <name>系统安装缓存</name> 
+        <description>Windows 安装过程中留下的文件，系统安装完成后，可以安全删除</description>
+        <!--
+		<dir os="all"><![CDATA[%SystemDrive%\$Windows.~BT]]></dir>
+		<path os="all"><![CDATA[%SystemDrive%\$Windows.~BT]]></path>
+        <dir os="all"><![CDATA[%SystemDrive%\$WINDOWS.~WS]]></dir>
+		<path os="all"><![CDATA[%SystemDrive%\$WINDOWS.~WS]]></path>
+        -->
+    </slim>
+    
+    <slim>
+        <id>29</id>
+        <gid>2</gid>
+        <autocheck>true</autocheck>
+        <name>DirectX缓存</name>
+        <description>DirectX着色器缓存，可以安全删除</description>
+    </slim>
+    <slim>
+        <id>30</id>
+        <gid>2</gid>
+        <autocheck>false</autocheck>
+        <name>旧版驱动包</name>
+        <description>不再需要的旧版本驱动程序，可选择删除</description>
+    </slim>
+    <slim>
+        <id>31</id>
+        <gid>2</gid>
+        <autocheck>false</autocheck>
+        <name>已下载程序</name>
+        <description>已下载的程序文件包括 ActiveX 控件和 Java 小程序，可以安全删除</description>
+    </slim>
+    <slim>
+        <id>32</id>
+        <gid>2</gid>
+        <autocheck>true</autocheck>
+        <name>升级日志文件</name>
+        <description>Windows 升级日志文件，可以安全删除</description>
+    </slim>
+    <slim>
+        <id>33</id>
+        <gid>2</gid>
+        <autocheck>true</autocheck>
+        <name>系统错误报告</name>
+        <description>从Windows 错误和用户反馈生成的诊断文件。</description>
+    </slim>
+    <slim>
+        <id>34</id>
+        <gid>2</gid>
+        <autocheck>false</autocheck>
+        <name>语言资源文件</name>
+        <description>末使用的语言资源文件，包括键盘输入、语音输入等</description>
+    </slim>
+
+</slims>
